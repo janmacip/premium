@@ -1,0 +1,537 @@
+#EXTM3U x-tvg-url="https://epg.stationlink.cl/tempest_config/epg/epglista.xml.gz"
+#EXTM3U url-tvg="https://epg.stationlink.cl/tempest_config/epg/epglista.xml.gz"
+
+----------FAVORITOS----------
+
+#EXTINF:-1 tvg-id="13CABLE" tvg-name="13 CABLE" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0021_500x500.png" group-title="13GO", 13 CABLE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ANtfCqR1lZT5NIin-p8G7w", "kid":"IcUdG-J1Q62VzNfSa7rtTQ" },{ "kty":"oct", "k":"WRQizUk8JstVUllI51Ut6w", "kid":"l8DtOaa6SNK6KPkGyQZqTA" } ], "type":"temporary" }
+https://tools.dbox.zip/stream.php?id=HF6j1clJKw
+
+#KODIPROP:inputstream.adaptive.file_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"a59a61f2650448b5bfad58341ed04357":"86fd5feb5572184bf340f5da321b62ed"}
+#EXTINF:-1 tvg-logo="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/88/19888865_376D16408CE9500A.png" group-title="Cultura",TNT SPORTS
+http://b39881.7.cdn.telefonica.com/39881/_-_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlkyUnVPakUzTlRrd05EZ3lNREk9In0.eyJpYXQiOjE3NTkyNDgwNjIsInVpcCI6IiIsInVpZCI6IkkwYnV4Y2ZCQTVRQ09PbTQwUTdMc0EiLCJhY2MiOiIxMzQxNjAyODc2MyIsImRpZCI6Ik5vblRydXN0ZWREZXZpY2UiLCJkdCI6IjQwMSIsIndsIjpmYWxzZX0.5M-__HUksTdMqyL8RJxGUY0PN8SvXlk-3CzwEcUOLO9cWc9HlfmtED_ZW2dBcIgj9nHHL37jAwCmcRVlqd5o-g_-_/sdash/LIVE$TNTSports/index.mpd/Manifest?start=2025-09-30T14:01:20Z&end=END&device=Dashavc&gvpPodType=1&tcdn-bitrate-filter=LIVEHD
+
+#EXTINF:-1 group-title="MOVISTARTV" tvg-id="LCH588" tvg-logo="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/06/71/6718046_208A681596D06D4E.png", MTV HD
+#EXTVLCOPT:http-referrer=https://movistartv.cl/
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c79193b8fa1f43d4b19431eb8b3094c2:020464729f1f4c1cb2b2889cc97145ed
+http://b39881.7.cdn.telefonica.com/39881/_-_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlkyUnVPakUzTlRrd05EZ3lNREk9In0.eyJpYXQiOjE3NTkyNDgwNjIsInVpcCI6IiIsInVpZCI6IkkwYnV4Y2ZCQTVRQ09PbTQwUTdMc0EiLCJhY2MiOiIxMzQxNjAyODc2MyIsImRpZCI6Ik5vblRydXN0ZWREZXZpY2UiLCJkdCI6IjQwMSIsIndsIjpmYWxzZX0.5M-__HUksTdMqyL8RJxGUY0PN8SvXlk-3CzwEcUOLO9cWc9HlfmtED_ZW2dBcIgj9nHHL37jAwCmcRVlqd5o-g_-_/sdash/LIVE$MTVHD/index.mpd/Manifest?start=2025-09-30T14:01:20Z&end=END&device=Dashavc&gvpPodType=1&tcdn-bitrate-filter=LIVEHD
+
+----------NACIONALES----------
+
+#EXTINF:-1 tvg-name="TNT Sports Premium HD" tvg-id="TNT Sports Premium_cl" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888867_1F5ED4CEA8EE9A89.png" group-title="Deportes",TNT Sports Premium 🇨🇱
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"e37512a1058943c4b3e9b947623d662a":"9e03dd73dd227505a7589766748def3b","66fdbc2636094ac280449dbe6c059163":"84d31c5fc86c964d3a083c5fe93cc33a"}
+https://tv-mgmt.gtd.cl/bpk-tv/CDF_HD/default/index.mpd
+
+#EXTINF:-1 tvg-name="TNT Sports Premium HD (op2)" tvg-id="TNT Sports Premium_cl" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888867_1F5ED4CEA8EE9A89.png" group-title="Deportes",TNT Sports Premium 🇨🇱 (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"2846b195d662412197149373f78337a2":"f06f32afc1a671ef747bb7d671fe8736"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+#http://b43040.7.cdn.telefonica.com/43040/_-_psi_-_/sdash/LIVE$TNTSportsPremiumHD/index.mpd/Manifest?start=2024-08-01T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+http://b39881.7.cdn.telefonica.com/39881/_-_psi_-_/sdash/LIVE$TNTSportsPremiumHD/index.mpd/Manifest?start=2024-08-01T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-id="Mi RADIOTV" tvg-name="Mi RADIOTV" tvg-logo="https://www.miradiols.cl/wp-content/uploads/2024/11/Asset-13.png" group-title="NACIONAL",Mi Radio TV
+https://v1.tustreaming.cl/miradiotv/rewind-999999.m3u8
+
+#EXTINF:-1 tvg-id="LCH1202" tvg-logo="http://media.gvp.telefonica.com/storageArea0/IMAGES/00/06/70/6706321_3EB1CF54B1D5282B.png", La Red HD
+#EXTVLCOPT:http-referrer=https://movistartv.cl/
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=20826b8c230348ec8722cc5bdd4936bb:a1cae5c0ba757000f66415086713b598
+http://b39881.7.cdn.telefonica.com/39881/_-_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlkyUnVPakUzTlRrd05EZ3lNREk9In0.eyJpYXQiOjE3NTkyNDgwNjIsInVpcCI6IiIsInVpZCI6IkkwYnV4Y2ZCQTVRQ09PbTQwUTdMc0EiLCJhY2MiOiIxMzQxNjAyODc2MyIsImRpZCI6Ik5vblRydXN0ZWREZXZpY2UiLCJkdCI6IjQwMSIsIndsIjpmYWxzZX0.5M-__HUksTdMqyL8RJxGUY0PN8SvXlk-3CzwEcUOLO9cWc9HlfmtED_ZW2dBcIgj9nHHL37jAwCmcRVlqd5o-g_-_/sdash/LIVE$LaRedHD/index.mpd/Manifest?start=2025-09-30T14:01:20Z&end=END&device=Dashavc&gvpPodType=1&tcdn-bitrate-filter=LIVEHD
+
+
+#EXTINF:-1 tvg-id="Canal 13 HD" tvg-name="Canal 13 HD" tvg-logo="https://i.ibb.co/hsPWxXx/canal-13.png" group-title="NACIONAL",CANAL 13 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"NyCKl8fwHt9SPtdXXVup9A", "kid":"VzdZuIhvXamSo8zOva6yHQ" },{ "kty":"oct", "k":"1oEjgsMbH+68Ukx1yiyZ7Q", "kid":"Wv/ZEqcIUEabrubtIQNdHA" },{ "kty":"oct", "k":"DCMFnyVyNIvc+KQXTctrqA", "kid":"+wF5ZnvWUr66PEtryUjYRw" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/canal13/canal13.mpd
+
+#EXTINF:-1 tvg-id="CHV" tvg-name="CHV" tvg-logo="https://i.ibb.co/60YtW1H/chv.png" group-title="NACIONAL",CHILEVISION HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dqUhhx1yCBJDp1mzJJA6qg", "kid":"knfaekUMU3qMu2yCnJOLyQ" },{ "kty":"oct", "k":"E6pTzM3gwIdabnVpMs8u9Q", "kid":"hEWhRQNyXVGot2MJPkkH+g" },{ "kty":"oct", "k":"F0VQQyWzeSLA1a2u6sgDwg", "kid":"c+/00+G8XmGaLGIc/6H4gg" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/chilevisionhd/chilevisionhd.mpd
+
+#EXTINF:-1 tvg-id="Mega" tvg-name="Mega" tvg-logo="https://i.ibb.co/KVwyHBQ/mega.png" group-title="NACIONAL",MEGA HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"omisb3BTUd+mx3OY11VZ2A", "kid":"aPEVoOM+XuqA6n1DlAhRIg" },{ "kty":"oct", "k":"RvzUidoRiHnKg53LDMJgyg", "kid":"O0mp7/cJUPilYLh1X+uVAg" },{ "kty":"oct", "k":"zV8aUU7WOnbuyrEZWOPSww", "kid":"vZBRINS1WiSN/5S5by9xQw" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/megahd/megahd.mpd
+
+#EXTINF:-1 tvg-id="TVN" tvg-name="TVN" tvg-logo="https://i.ibb.co/3NmJZNb/tvn.png" group-title="NACIONAL",TVN HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"d/nU1qFwH1NSCLz7WcAxHw", "kid":"qsQrXWpvW+2/1irF/vKJeA" },{ "kty":"oct", "k":"XiOoAFP7J086ASb6KHrrzw", "kid":"4hyVGmZxWcujnAmpRnUfcw" },{ "kty":"oct", "k":"ZJueey+t0p2zVbbbvAxS6w", "kid":"coh5b86yVlucQZ22OLXcGw" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/tvn/tvn.mpd
+
+#EXTINF:-1 tvg-id="TV+ HD" tvg-name="TV+ HD" tvg-logo="https://i.ibb.co/SP9HQH8/tv.png" group-title="NACIONAL",TV+ HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"qhtBDVXi9XooWf7qfnvgPw", "kid":"rSj+ax7PX+iNOD1za3fYFw" },{ "kty":"oct", "k":"D3krXBpUggt+Bte2HPHVKw", "kid":"WdXh7WXZXxKsCi1BNk/W2A" },{ "kty":"oct", "k":"OHls8RkhHtY3K5TS5rlbTg", "kid":"HlSrYIXWVvKdrfo1jdJKnA" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/tvp/tvp.mpd
+
+#EXTINF:-1 tvg-id="RED TELEVISION HD" tvg-name="RED TELEVISION HD" tvg-logo="https://i.ibb.co/VNdDky3/la-red.png" group-title="NACIONAL",LA RED HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"NfN9nS+I1XeyKcaR0bKb4w", "kid":"01LCA+KgVAeNp/FIMa/Klw" },{ "kty":"oct", "k":"9pedu2NSIid/gDddHTnXFA", "kid":"L3IxyNrvWA2zm4uNGMh1hQ" },{ "kty":"oct", "k":"q6rpZWDa2zZcOqzPRQDUdw", "kid":"pHIuTMasW6OVkGscTaTRmA" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/lared/lared.mpd
+
+#EXTINF:-1 tvg-id="24 Horas HD" tvg-name="24 Horas HD" tvg-logo="https://i.ibb.co/dMGyMM0/24-horas.png" group-title="NACIONAL",CANAL 24 HORAS HD
+https://mdstrm.com/live-stream-playlist-v/57d1a22064f5d85712b20dab.m3u8
+
+
+
+----------DEPORTES----------
+
+#EXTINF:-1 tvg-name="TNT Sports Premium HD" tvg-id="TNT Sports Premium_cl" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888867_1F5ED4CEA8EE9A89.png" group-title="Deportes",TNT Sports Premium 🇨🇱
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"e37512a1058943c4b3e9b947623d662a":"9e03dd73dd227505a7589766748def3b","66fdbc2636094ac280449dbe6c059163":"84d31c5fc86c964d3a083c5fe93cc33a"}
+https://tv-mgmt.gtd.cl/bpk-tv/CDF_HD/default/index.mpd
+
+#EXTINF:-1 tvg-id="1175dtv.cl" tvg-name="ESPN Chile" tvg-logo="https://i.ibb.co/k5WgfJ1/espn.png" group-title="DEPORTES",ESPN HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dPjqtGweQ/2Pe2TCGpb8Ww", "kid":"kGcRhN2CVBqdF4bqoCXjRQ" },{ "kty":"oct", "k":"RFFEe99V/kRR9KO/F32lmg", "kid":"uH19qIS9XzSWAV+cLlPIlg" },{ "kty":"oct", "k":"dcbm1XMI80ykgoAqXnlqBQ", "kid":"tpiboKoPXoqBfs39nDhZlA" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/espn/espn.mpd
+
+#EXTINF:-1 tvg-id="431dtv.cl" tvg-name="ESPN 2 Chile" tvg-logo="https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F06%2F38%2F6383310_007CE9E18A928D1C.png&height=60&resize=RATIO&format=PNG" group-title="DEPORTES",ESPN 2 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"MBX9udpV3rVx2xQd2eaniA", "kid":"SnkFDrcQVyu8PPp1cGwUEQ" },{ "kty":"oct", "k":"PzMAJnCPwv3RovDiPO59BA", "kid":"br92QVgVVlixp2XC2Gg10w" },{ "kty":"oct", "k":"QsOr676t6NPMryh32xYvcw", "kid":"iIYJ/A2FUfO3jMAY/mby/g" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/espn2/espn2.mpd
+
+#EXTINF:-1 tvg-id="1075dtv.cl" tvg-name="ESPN 3 Andina" tvg-logo="https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F06%2F38%2F6383311_78D38321059792D4.png&height=60&resize=RATIO&format=PNG" group-title="DEPORTES",ESPN 3 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"E0piombH8SyZGHBHK9bKqg", "kid":"f3sW+4VIU0WEkgDBeO5txA" },{ "kty":"oct", "k":"FE2UtV7Nnc/t/0niCdb+ow", "kid":"PH56/q6eVriN7szAbtdFcw" },{ "kty":"oct", "k":"PQbApCxcCr3AtSnVb7iNQw", "kid":"UsazpgNeX2KFgw/LL5GhQA" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/espn3/espn3.mpd
+
+#EXTINF:-1 tvg-id="1075dtv.cl" tvg-name="ESPN 3 Andina" tvg-logo="https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F18%2F12%2F18120538_C879B6958D9AC767.png&height=60&resize=RATIO&format=PNG" group-title="DEPORTES",ESPN 5 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"1FazyuiKt/2HupBGknthRg", "kid":"PMsKjc70Wkai/CTkv3vqjA" },{ "kty":"oct", "k":"+0r80+bO7sT5PpRAGi4bSg", "kid":"PXi3cmqtVAqgD9COfDRG9Q" },{ "kty":"oct", "k":"2e55A1+R0WZvp8QMAkkT6g", "kid":"nrRTndHSXkuRldhNVEooOw" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/espn4/espn4.mpd
+
+#EXTINF:-1 tvg-id="3081dtv.cl" tvg-name="" tvg-logo="https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F06%2F57%2F6577079_6A66E5AB224CD2F5.png&height=60&resize=RATIO&format=PNG" group-title="DEPORTES",TYC SPORTS HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"MQrvhoM8JmlsH2aCk0Uwzg", "kid":"HGcfIC8DX8aCleKFRA4fBg" },{ "kty":"oct", "k":"rzBjcCC9gGUO96x6V/BUBQ", "kid":"MmnMH/3IVtOdbSesquucVw" },{ "kty":"oct", "k":"qunyrZDV0p20MUWGr5tBTw", "kid":"mMCh+w1CX4i/4cKtCYV1rg" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/tycsports/tycsports.mpd
+
+
+
+----------CINE Y SERIES----------
+
+
+#EXTINF:-1 tvg-id="de-pelicula.mx" tvg-name="MX | De Película" tvg-logo="https://imagenes.gatotv.com/logos/canales/claros/de_pelicula-mediano.png" group-title="CINE Y SERIES",DE PELICULA HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Duc1ujfe3hBm9GTtiBA+jA", "kid":"EXkspSAEU1KkFv8hbmwN4Q" },{ "kty":"oct", "k":"sZoLvyDt3956rRhd99EZmQ", "kid":"9aA5YeVWUOussxp6ZO6NpA" },{ "kty":"oct", "k":"sYpCElxPNG8PelttBmNoYw", "kid":"8jlSPgyiWouiwQCxSSeHbA" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/depelicula/depelicula.mpd
+
+#EXTINF:-1 tvg-id="Space.mx" tvg-name="" tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6b3a567a9c9259721e3_space.png" group-title="CINE Y SERIES",SPACE HD (2)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"2u1TmSL54q3RcBApP9o8Ng", "kid":"huZL+YW/WiqLSNseTQ+GDA" },{ "kty":"oct", "k":"WoNKyh0J0S0dVltzuGFsAw", "kid":"EjEoWXhpUrWUeu41+doVrw" },{ "kty":"oct", "k":"YK+CBHd0BiDx5i/MQH333w", "kid":"NkGjl+bnX06HeQ0dZsX3Pg" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/spacehd/spacehd.mpd
+
+#EXTINF:-1 tvg-id="502dtv.cl" tvg-name="TNT Chile" tvg-logo="https://i.ibb.co/WcnmY6M/tnt.png" group-title="CINE Y SERIES",TNT HD (2)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ZaIZqmQXvYPGUBg6SC+t8Q", "kid":"5Hd/mUc1VTSNPPkxu0nqOQ" },{ "kty":"oct", "k":"/hFkQYGELm+amtLeWL/elw", "kid":"zt2r9DVHUwqqib8ULBIy7w" },{ "kty":"oct", "k":"aeAi9LG7bvQVSYH8smOkKg", "kid":"jBMEIcbDX223EcpjrBWAvg" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/tnthd/tnthd.mpd
+
+----------INFANTILES----------
+
+
+
+
+
+----------MUSICA----------
+
+
+
+----------CULTURA Y ENTRETENIMIENTO----------
+
+#EXTINF:-1 tvg-id="Fashion TV" tvg-name="Fashion TV" tvg-logo="https://3038.images-vfp2.ott.kaltura.com/Service.svc/GetImage/p/3038/entry_id/0b7ab6b146da42d582433ebde0ee70ee_20/version/0" group-title="Cultura", Fashion TV UHD
+https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+
+##EXTINF:-1 tvg-id="Fashion TV" tvg-name="Fashion TV" tvg-logo="https://3038.images-vfp2.ott.kaltura.com/Service.svc/GetImage/p/3038/entry_id/0b7ab6b146da42d582433ebde0ee70ee_20/version/0" group-title="Cultura", Fashion TV
+##KODIPROP:inputstream.adaptive.manifest_type=mpd
+##KODIPROP:inputstream.adaptive.license_type=clearkey
+##EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+##KODIPROP:inputstream.adaptive.license_key=22d19599896b4a2b9d819cd3f06ae9c6:0566a2384ec15167ab3186b32fb87471
+#https://vodafone.sintv.cl/pr/LIVE/sdash/LIVE$391/index.mpd/Manifest.mpd?start=LIVE&end=END&device=DASH_AVC_FULLHD
+
+##EXTINF:-1 tvg-id="OneToro TV" tvg-name="OneToro TV" tvg-logo="https://3038.images-vfp2.ott.kaltura.com/Service.svc/GetImage/p/3038/entry_id/da023a13c212469da8ab4184ad98a2ef_20/version/0" group-title="Cultura", OneToro TV
+##KODIPROP:inputstream.adaptive.manifest_type=mpd
+##KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+##KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"i6i/fvU3Gq6qhflmsuyK7g","kid":"FL1XLBkaQjidvovlfVWzMw"}],"type":"temporary"}
+#https://vodafone.sintv.cl/pr/LIVE/sdash/LIVE$582/index.mpd/Manifest.mpd?start=LIVE&end=END&device=DASH_AVC_FULLHD
+
+#EXTINF:-1 tvg-name="Lifetime HD" tvg-id="LIFETIME" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/07/17/7174958_C8682663671689F2.png" group-title="Cultura",Lifetime HD
+#EXTVLCOPT:http-user-agent=Android
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6f85d8282bb6fe2db8f34299d5742f02:28d49f409d718ecad8f82f477d3beb77
+http://cdn.sensa.com.ar/live/eds/Lifetime/live_dash_cld/Lifetime.mpd
+
+#EXTINF:-1 tvg-name="Lifetime HD (op2)" tvg-id="LIFETIME" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/07/17/7174958_C8682663671689F2.png" group-title="Cultura",Lifetime HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"AG0E/0MOC1WQC1NAJKeiMw","kid":"Mmf9Mt4bUmCf9lBd1n0yCw"},{"kty":"oct","k":"vkEGL4NT4GBVrUkyhzFUgQ","kid":"/U7rgpz8XFSC6ch9PvqwuA"},{"kty":"oct","k":"4Ij3e+PZGRi+noXCgsyITg","kid":"IhORPJfkX+yDugTWX+ZTzg"},{"kty":"oct","k":"w4MaefLqDwD1r5jdNbrZ6w","kid":"nqz7c/XqXnSDs8pYGLm+ag"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+https://strm.edzeta.site/bpk-dgo/dash/1159.mpd
+
+#EXTINF:-1 tvg-name="NatGeo HD" tvg-id="NAT GEO" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404323_63237090D01F24CE.png" group-title="Cultura",NatGeo HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0970bbe8d0b64aef871013c8b3a7f777:1889dd640b960aa5acf5443a564b0285
+https://tv-mgmt.gtd.cl/bpk-tv/NATGEO/default/index.mpd
+
+#EXTINF:-1 tvg-name="NatGeo HD (op2)" tvg-id="NAT GEO" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404323_63237090D01F24CE.png" group-title="Cultura",NatGeo HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"cf9cf183c6f846ff953da1014203ae5e":"26d159c832b83b6f09024009ddfbd302"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b39881.7.cdn.telefonica.com/39881/_-_psi_-_/sdash/LIVE$NatGeoHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-id="LOVE NATURE HD" tvg-name="Love Nature HD" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/1801/CH_LOGO/800/542/0/0/64384481074718.png" group-title="Cultura" ,Love Nature HD
+#EXTVLCOPT:http-user-agent=Android
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ea6437084f6c055c7c856f86361e86fa:9791c0e6f72b4a5eacf8bddfa5290209
+http://cdn.sensa.com.ar/bpk-tv/LoveNature/default/index.mpd
+
+#EXTINF:-1 tvg-id="LoveNature4K(English).ca" group-title="Cultura" tvg-logo="https://i.imgur.com/4AJjuZy.png",Love Nature 4K 
+#https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8
+https://aegis-cloudfront-1.tubi.video/dc8bda97-ce9e-4091-b4e8-11254dea4da6/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Animal Planet HD" tvg-id="Animal Planet" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404328_6EA16AC5A8C8CA82.png" group-title="Cultura",Animal Planet HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"07aa348759764168b69784e02312a139":"cd495fd0d25b79275d9085eed3215ad0"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b39881.7.cdn.telefonica.com/39881/_-_psi_-_/sdash/LIVE$AnimalPlanetHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="Animal Planet HD op2" tvg-id="Animal Planet" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404328_6EA16AC5A8C8CA82.png" group-title="Cultura",Animal Planet HD (op2)
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8e4e010ab42246f6ba273586b45dba20:bcae0fefa08ae2026739069c9943068c
+https://tv-mgmt.gtd.cl/bpk-tv/ANIMAL/default/index.mpd
+
+#EXTINF:-1 tvg-id="DISCOVERY HH" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/11/47/11470349_2B54A1C94E8999B4.png" group-title="Cultura",Discovery H&H HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"44bfa762edb244b8b842e0c368cec3d9":"4ea9d0bb26e6695db0c3d1e2c8f8560d"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b39881.7.cdn.telefonica.com/39881/_-_psi_-_/sdash/LIVE$D.homehealthHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-id="DISCOVERY HH" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/11/47/11470349_2B54A1C94E8999B4.png" group-title="Cultura",Discovery H&H HD (op2)
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=d65c4958b48e46cba95a7f8bfac43ad7:ab3f08799289801cd43d7745ddf352fa
+https://tv-mgmt.gtd.cl/bpk-tv/HOMEHE/default/index.mpd
+
+#EXTINF:-1 tvg-id="Discovery HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404318_A08760A31E4E9381.png" group-title="Cultura",Discovery HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=42b291e1ca12469282efaf41c69f5049:a8322b235a151f3adac99aa91a8b9d76
+https://tv-mgmt.gtd.cl/bpk-tv/DSCOVRY/default/index.mpd
+
+#EXTINF:-1 tvg-id="Discovery HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404318_A08760A31E4E9381.png" group-title="Cultura",Discovery HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"cf9083c307ec466dbb736b06589e556a":"fdbdd7cef3645f05cf52d9b7c1c37c4d"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b39881.7.cdn.telefonica.com/39881/_-_psi_-_/sdash/LIVE$DiscoveryHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="HGTV" tvg-id="DISCOVERY HOME & GARDEN" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/50/6502145_B26126E65BFB4AE2.png" group-title="Cultura",Discovery HGTV HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"b19159460c164ac781c767031d130370":"33c5c660497599792e17b9a2f8c8e71d"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b39881.7.cdn.telefonica.com/39881/_-_psi_-_/sdash/LIVE$Disc.HomeGarden/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="HGTV op2" tvg-id="DISCOVERY HOME & GARDEN" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/50/6502145_B26126E65BFB4AE2.png" group-title="Cultura",Discovery HGTV HD (op2)
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8fb6cc87458b4a90a34a7420845e0672:c6fc95632165d4bf721fbdd58a0bdf11
+https://tv-mgmt.gtd.cl/bpk-tv/HGTV/default/index.mpd
+
+#EXTINF:-1 tvg-name="Discovery ID HD" tvg-id="ID - INVESTIGATION DISCOVERY" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/07/52/7522972_D23BD84A0800ADB3.png" group-title="Cultura",Discovery ID HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c069368f52ac4436bbd262d4d4d49071:1d50cd7690579e520cef6f4c8571eedb
+https://tv-mgmt.gtd.cl/bpk-tv/ID/default/index.mpd
+
+#EXTINF:-1 tvg-name="Discovery ID HD (op2)" tvg-id="ID - INVESTIGATION DISCOVERY" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/07/52/7522972_D23BD84A0800ADB3.png" group-title="Cultura",Discovery ID HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"1fb38e4a645e4e6d80a4d36a4fb07f02":"4c03e88981b03e07b1187743b382d2e1"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b39881.7.cdn.telefonica.com/39881/_-_psi_-_/sdash/LIVE$Invest.DiscoveryHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="Discovery Science HD" tvg-id="DISC. SCIENCE HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/08/61/8615292_8817353627981150.png" group-title="Cultura",Discovery Science HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=62c70d87013244cba147b53309737517:e09266262e89af88841022b94f0a9cb5
+https://tv-mgmt.gtd.cl/bpk-tv/SCIENCE/default/index.mpd
+
+#EXTINF:-1 tvg-name="Discovery Science HD (op2)" tvg-id="DISC. SCIENCE HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/08/61/8615292_8817353627981150.png" group-title="Cultura",Discovery Science HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"29fbbca6faa84325848601cac60ab6c3":"9112914eed42a4d46bca456cd1d0e513"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b45058.7.cdn.telefonica.com/45058/_-_psi_-_/sdash/LIVE$DISC.SCIENCEHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="Discovery TLC HD" tvg-id="TLC HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404405_CD52322046D5E2FB.png" group-title="Cultura",Discovery TLC HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"8566f78fb3944c76a6f86ad888acb79c":"d67699e5663b224be03e1a10e962c819"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b45058.7.cdn.telefonica.com/45058/_-_psi_-_/sdash/LIVE$TLCHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="Discovery TLC HD (op2) ar" tvg-id="TLC HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404405_CD52322046D5E2FB.png" group-title="Cultura",Discovery TLC HD (op2)
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8588d4aba39e4f9684399448e94c43ef:21804238536020300d8888baefa08c01
+https://tv-mgmt.gtd.cl/bpk-tv/TRAVEL/default/index.mpd
+
+#EXTINF:-1 tvg-shift="0" tvg-name="Discovery Turbo HD ar" tvg-id="DISCOVERY TURBO" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6400496_F73CF76E891B89F0.png" group-title="Cultura",Discovery Turbo HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"1a71bfd89dff4eb4b8a01176307ec1b6":"e30e8fc2a90d993dd689a786005412d1"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b45058.7.cdn.telefonica.com/45058/_-_psi_-_/sdash/LIVE$Disc.TurboHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-shift="0" tvg-name="Discovery Turbo HD op2" tvg-id="DISCOVERY TURBO" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6400496_F73CF76E891B89F0.png" group-title="Cultura",Discovery Turbo HD (op2)
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=4e4c2518992841c59c0465f541ccebbf:2fdcf921dbb47e92be2034db6b125018
+https://tv-mgmt.gtd.cl/bpk-tv/TURBO/default/index.mpd
+
+#EXTINF:-1 tvg-name="Discovery World HD" tvg-id="DISCOVERY WORLD HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404322_9A34A52DCF8A15B7.png" group-title="Cultura",Discovery World HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"fc6a0f48b0f54b2189fdcf3ed9269489":"ea130dd1cab561362e0946c16daca8c7"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b39881.7.cdn.telefonica.com/39881/_-_psi_-_/sdash/LIVE$DiscoveryWorld/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="Discovery World HD (op2)" tvg-id="DISCOVERY WORLD HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404322_9A34A52DCF8A15B7.png" group-title="Cultura",Discovery World HD (op2)
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=d765ac74cb5f402395ec9b7fc085d9d8:e36f297cfffb0e156ec672496c9d626a
+https://tv-mgmt.gtd.cl/bpk-tv/WORLDHD/default/index.mpd
+
+#EXTINF:-1 tvg-name="Food Network HD" tvg-id="Food Network HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6402370_721F7ED3E1D94D33.png" group-title="Cultura",Food Network HD 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"ccad9c67d2a04ee98dd53ec6c2d313bf":"3abf5c0dfa533318d8456ba67886a331"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b39881.7.cdn.telefonica.com/39881/_-_psi_-_/sdash/LIVE$FoodNetworkHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="Food Network HD op2" tvg-id="Food Network HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6402370_721F7ED3E1D94D33.png" group-title="Cultura",Food Network HD (op2)
+#EXTVLCOPT:http-user-agent=Android
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=53b35977eefc0237bef0173f9b431a07:5402473ba47096edc01bb2334685d860
+http://cdn.sensa.com.ar/live/eds/FoodNetwork/live_dash_cld/FoodNetwork.mpd
+
+#EXTINF:-1 tvg-name="History Channel HD (op2) ar" tvg-id="HISTORY CHANNEL HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/10/55/10556449_1A6D8A2DB98235CD.png" group-title="Cultura",History Channel HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"5e4af5a79ffe4d90a6b5461a23b7def6":"5791625f21d2ef8a4dfc93796c2ec1bf"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b45058.7.cdn.telefonica.com/45058/_-_psi_-_/sdash/LIVE$HistoryHD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="History Channel HD ar" tvg-id="HISTORY CHANNEL HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/10/55/10556449_1A6D8A2DB98235CD.png" group-title="Cultura",History Channel HD  (op2)
+#EXTVLCOPT:http-referrer=https://mundogo.cl/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mundo.sintv.cl/license-proxy
+https://cdn-live.mundogo.cl/history/history.mpd
+
+#EXTINF:-1 tvg-name="History 2 HD ar" tvg-id="HISTORY 2 HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/10/55/10556454_1534264D9C0B8BFC.png" group-title="Cultura",History 2 HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=454a4c570f8b662076ce4f1a931d3b06:2e7233e228d7d8a203e07e2b08584019
+https://cdn.sensa.com.ar/live/eds/History2/live_dash_cld/History2.mpd
+
+#EXTINF:-1 tvg-name="History 2 HD (op2) ar" tvg-id="HISTORY 2 HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/10/55/10556454_1534264D9C0B8BFC.png" group-title="Cultura",History 2 HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"065471906db742d19b7797f892aca158":"5291ce1e358d307927701fd9933e223c"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+http://b45058.7.cdn.telefonica.com/45058/_-_psi_-_/sdash/LIVE$H2HD/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
+
+#EXTINF:-1 tvg-name="EL GOURMET" tvg-id="EL GOURMET" group-title="Cultura" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/31/6310593_B6C889B3D6BEB5F2.png",El Gourmet HD
+#KODIPROP:inputstream.adaptive.license_type=widevine
+#KODIPROP:inputstream.adaptive.license_key=https://mundo.sintv.cl/license-proxy
+https://cdn-live.mundogo.cl/gourmet/gourmet.mpd
+
+#EXTINF:-1 tvg-name="EL GOURMET (op2)" tvg-id="EL GOURMET" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/31/6310593_B6C889B3D6BEB5F2.png" group-title="Cultura",El Gourmet HD (op2)
+#EXTVLCOPT:http-user-agent=Android
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"8XP_g-ilDX0MNjzeDCYdxg","kty":"oct","kid":"CFOx0q99buX3qKVxY37mtw"}],"type":"temporary"}
+https://cdn.sensa.com.ar/live/eds/ElGourmet/live_dash_cld/ElGourmet.mpd
+
+
+
+----------PELICULAS----------
+
+
+#EXTINF:-1 tvg-id="" tvg-name="Harry Potter y la piedra filosofal" tvg-logo="https://www.themoviedb.org/t/p/w1280/7xXJ15VEf7G9GdAuV1dO769yC73.jpg" group-title="Saga Harry Potter", Harry Potter y la piedra filosofal
+http://144.217.70.79/VODS-M/1080P/Harry%20Potter%20and%20the%20Sorcerers%20Stone%202001.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Harry Potter y la cámara secreta" tvg-logo="https://www.themoviedb.org/t/p/w1280/bhCfAzeMMg7GyLDT11yVM2i1NPh.jpg" group-title="Saga Harry Potter",Harry Potter y la cámara secreta
+http://144.217.70.79/VODS-M/1080P/Harry%20Potter%20And%20The%20Chamber%20Of%20Secrets%202002.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Harry Potter y el prisionero de Azkaban" tvg-logo="https://www.themoviedb.org/t/p/w1280/oabaGVDN9pqLzMT6w5qMGdFawH5.jpg" group-title="Saga Harry Potter",Harry Potter y el prisionero de Azkaban
+http://144.217.70.79/VODS-M/1080P/Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban%202004.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Harry Potter y el cáliz de fuego" tvg-logo="https://www.themoviedb.org/t/p/w1280/5hrrncgY7GfRHz6JmnhPlvJUONe.jpg" group-title="Saga Harry Potter",Harry Potter y el cáliz de fuego
+http://144.217.70.79/VODS-M/1080P/Harry%20Potter%20and%20the%20Goblet%20of%20Fire%202005.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Harry Potter y la Orden del Fénix" tvg-logo="https://www.themoviedb.org/t/p/w1280/xxXiM2Ij7plbzibKWW9BfDk23aI.jpg" group-title="Saga Harry Potter",Harry Potter y la Orden del Fénix
+http://144.217.70.79/VODS-M/1080P/Harry%20Potter%20and%20the%20Order%20of%20the%20Phoenix%202007.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Harry Potter y el misterio del príncipe" tvg-logo="https://www.themoviedb.org/t/p/w1280/tO0UGkNuQoxyXve0mvwtXP49NAO.jpg" group-title="Saga Harry Potter",Harry Potter y el misterio del príncipe
+http://144.217.70.79/VODS-M/1080P/Harry%20Potter%20and%20the%20Half-Blood%20Prince%202009.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Harry Potter y las Reliquias de la Muerte - Parte 1" tvg-logo="https://www.themoviedb.org/t/p/w1280/w6wsYKdXERaXRdByPsI2O9rn20b.jpg" group-title="Saga Harry Potter",Harry Potter y las Reliquias de la Muerte - Parte 1
+http://144.217.70.79/VODS-M/1080P/Harry%20Potter%20and%20the%20Deathly%20Hallows%20Part%201%202010.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Harry Potter y las Reliquias de la Muerte - Parte 2" tvg-logo="https://www.themoviedb.org/t/p/w1280/73qT8nFOkRDGhKIpH5Yr1DmrAeF.jpg" group-title="Saga Harry Potter",Harry Potter y las Reliquias de la Muerte - Parte 2
+http://144.217.70.79/VODS-M/1080P/Harry%20Potter%20and%20the%20Deathly%20Hallows%20Part%202%202011.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Harry Potter, 20º Aniversario: Regreso a Hogwarts" tvg-logo="https://www.themoviedb.org/t/p/w1280/sSLk8GLlFE5shKnze0smVBJ2uFA.jpg" group-title="Saga Harry Potter",Harry Potter, 20º Aniversario: Regreso a Hogwarts
+http://144.217.70.79/VODS-M/1080P/Harry%20Potter%2020th%20Anniversary%20Return%20to%20Hogwarts%202022.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/558/posters/6442ce72341cd.jpg" group-title="Terror / Thriller",LA ISLA SINIESTRA
+http://144.217.70.79/VODS-M/1080P/Shutter%20Island%202010.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/1278/posters/1278.jpg" group-title="Comedia / Drama",LA TERMINAL (2004)
+http://144.217.70.79/VODS-M/1080P/The%20Terminal%202004.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/751/posters/64fb906ed5e6b.jpg" group-title="Drama",Eterno resplandor de una mente sin recuerdos (2004)
+http://144.217.70.79/VODS-M/1080P/Eternal%20Sunshine%20of%20the%20Spotless%20Mind%202004.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/835/posters/835.jpg" group-title="Terror / Thriller",28 SEMANAS DESPUES (2007)
+http://144.217.70.79/VODS-M/1080P/28%20Weeks%20Later%202007.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/527/posters/60cded8a8920d.jpg" group-title="Aventura / Ciencia ficcion",Prometheus (2012)
+http://144.217.70.79/VODS-M/1080P/Prometheus%202012.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/132448/posters/62e8608966841.jpg" group-title="Aventura / Ciencia ficcion",Spider-Man: No Way Home
+http://144.217.70.79/VODS-M/1080P/Spider%20Man%20No%20Way%20Home%202022.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/145/posters/5f61e83356f9a.jpg" group-title="Aventura / Ciencia ficcion",Doctor Strange (2016)
+http://144.217.70.79/VODS-M/1080P/Doctor%20strange%202016.mp4
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/32426/posters/624dd7c78224b.jpg" group-title="Aventura / Ciencia ficcion",Doctor Strangue : Multiverso De Locura (2022)
+http://144.217.70.79/VODS-M/1080P/Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness%202022.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/8/posters/60bc273188ee0.jpg" group-title="Aventura / Ciencia ficcion",Vengadores: Infinity War
+http://144.217.70.79/VODS-M/1080P/Avengers%20Infinity%20War%202018.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/148/posters/5f21e4031fea4.jpg" group-title="Aventura / Ciencia ficcion",Vengadores: Endgame
+http://144.217.70.79/VODS-M/1080P/Avengers%20Endgame%202019.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/9610/posters/9610.jpg" group-title="Drama / Religion",El Cielo es Real 
+http://144.217.70.79/VODS-M/1080P/Heaven%20Is%20for%20Real%202014.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/11882/posters/11882.jpg" group-title="Drama / Religion",Dios no esta muerto
+http://144.217.70.79/VODS-M/1080P/Gods%20Not%20Dead%202014.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/3168/posters/627a37304fe04.jpg" group-title="Drama / Crimen",Diario de un Rebelde
+http://144.217.70.79/VODS-M/1080P/The%20Basketball%20Diaries%201995.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/1503/posters/644d31cf3081a.jpg" group-title="Drama / Crimen",El efecto mariposa (2004)
+http://144.217.70.79/VODS-M/1080P/The%20Butterfly%20Effect%202004.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/7141/posters/7141.jpg" group-title="Drama / Crimen",El efecto mariposa II (2006)
+http://144.217.70.79/VODS-M/1080P/The%20Butterfly%20Effect%202%202006.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/4008/posters/64283aaaec759.jpg" group-title="Drama / Crimen",El efecto mariposa III: Revelaciones (2009)
+http://144.217.70.79/VODS-M/1080P/The%20Butterfly%20Effect%203%20Revelations%202009.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/1095/posters/6421f07f16d51.jpg" group-title="Drama / Aventura",Un puente hacia Terabithia
+http://144.217.70.79/VODS-M/1080P/Bridge%20to%20Terabithia%202007.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/9020/posters/9020.jpg" group-title="Drama / Thriller",The Discovery
+http://144.217.70.79/VODS-M/1080P/The%20Discovery%202017.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/2362/posters/2362.jpg" group-title="Terror / Thriller",Destino final 2 (2003)
+http://144.217.70.79/VODS-M/1080P/Final%20Destination%202%202003.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/2076/posters/2076.jpg" group-title="Drama / Thriller",Mystic River (2003)
+http://144.217.70.79/VODS-M/1080P/Mystic%20River%202003.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/138100/posters/601a1940f10e3.jpg" group-title="Drama",El Padre (2021)
+http://144.217.70.79/VODS-M/1080P/The%20Father%202020.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/1468/posters/6442b5ba71036.jpg" group-title="Drama",El fundador (2016)
+http://144.217.70.79/VODS-M/1080P/The%20founder%202016.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/838/posters/6078b40b3fa8f.jpg" group-title="Drama",Náufrago (2000)
+http://144.217.70.79/VODS-M/1080P/Cast%20Away%202000.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/2752/posters/2752.jpg" group-title="Drama",Más allá de los sueños (1998)
+http://144.217.70.79/VODS-M/1080P/What%20Dreams%20May%20Come%201998.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/4423/posters/641bb1c26a49c.jpg" group-title="Terror",La Llave Mastra (2005)
+http://144.217.70.79/VODS-M/1080P/The%20Skeleton%20Key%202005.mkv
+
+----------COMEDIA----------
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/115/posters/633e92ab1e8c9.jpg" group-title="Comedia",DeadPool (2016)
+http://144.217.70.79/VODS-M/1080P/Deadpool%202016.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/91/posters/6424dcc0364b7.jpg" group-title="Comedia",DeadPool 2 (2018)
+http://144.217.70.79/VODS-M/1080P/Deadpool%202%202018.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/628/posters/64331027af86e.jpg" group-title="Comedia",21 Jump Street (2012)
+http://144.217.70.79/VODS-M/1080P/21%20Jump%20Street%202012.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/1519/posters/1519.jpg" group-title="Comedia",Forgetting Sarah Marshall (2008)
+http://144.217.70.79/VODS-M/1080P/Forgetting%20Sarah%20Marshall%202008.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/280/posters/280.jpg" group-title="Comedia",Hombres de negro II (2002)
+http://144.217.70.79/VODS-M/1080P/Men%20In%20Black%20II%202002.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/446/posters/641861fe710e0.jpg" group-title="Comedia",Hombres de negro III (2012)
+http://144.217.70.79/VODS-M/1080P/Men%20in%20Black%203%202012.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/1815/posters/1815.jpg" group-title="Comedia",Superdetective en Hollywood II (1987)
+http://144.217.70.79/VODS-M/1080P/Beverly%20Hills%20Cop%202%201987.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/2836/posters/2836.jpg" group-title="Comedia",Superdetective en Hollywood III (1994)
+http://144.217.70.79/VODS-M/1080P/Beverly%20Hills%20Cop%203%201994.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/1362/posters/6445515c13df0.jpg" group-title="Comedia",Virgen a los 40
+http://144.217.70.79/VODS-M/1080P/The%2040-Year-Old%20Virgin%202005.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/352/posters/352.jpg" group-title="Comedia",American Pie (1999)
+http://144.217.70.79/VODS-M/1080P/American%20Pie%201999.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/1368/posters/641492b355846.jpg" group-title="Comedia",American Pie 2 (2001)
+http://144.217.70.79/VODS-M/1080P/American%20Pie%202%202001.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/2508/posters/643071e8ed78e.jpg" group-title="Comedia",American Pie Presenta: Band Camp (2005)
+http://144.217.70.79/VODS-M/1080P/American%20Pie%20Presents%20Band%20Camp%202005.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/1989/posters/6414955782886.jpg" group-title="Comedia",American Pie Presenta: Una fiesta de pelotas (2006)
+http://144.217.70.79/VODS-M/1080P/American%20Pie%20Presents%20The%20Naked%20Mile%202006.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/1233/posters/6414961d4e287.jpg" group-title="Comedia",American Pie Presenta: Fraternidad Beta (2007)
+http://144.217.70.79/VODS-M/1080P/American%20Pie%20Presents%20Beta%20House%202007.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/1327/posters/1327.jpg" group-title="Comedia",American Pie Presenta: El libro del amor (2009)
+http://144.217.70.79/VODS-M/1080P/American%20Pie%20Presents%20The%20Book%20of%20Love%202009.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/1544/posters/1544.jpg" group-title="Comedia",American Pie: El reencuentro (2012)
+http://144.217.70.79/VODS-M/1080P/American%20Reunion%202012.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/movies/141216/posters/5f7cf1b889f32.jpg" group-title="Comedia",American Pie Presenta: Las chicas mandan (2020)
+http://144.217.70.79/VODS-M/1080P/American%20Pie%20Presents%20Girls%20Rules%202020.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://artworks.thetvdb.com/banners/v4/movie/2110/posters/6448c05f2ed8d.jpg" group-title="Comedia",Dick y Jane, ladrones de risa (2005)
+http://144.217.70.79/VODS-M/1080P/Fun%20with%20Dick%20and%20Jane%202005.mkv
