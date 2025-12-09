@@ -19,10 +19,22 @@ https://tv-mgmt.gtd.cl/bpk-tv/CDF_HD/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"NyCKl8fwHt9SPtdXXVup9A", "kid":"VzdZuIhvXamSo8zOva6yHQ" },{ "kty":"oct", "k":"1oEjgsMbH+68Ukx1yiyZ7Q", "kid":"Wv/ZEqcIUEabrubtIQNdHA" },{ "kty":"oct", "k":"DCMFnyVyNIvc+KQXTctrqA", "kid":"+wF5ZnvWUr66PEtryUjYRw" } ], "type":"temporary" }
 https://cdn-live.mundogo.cl/canal13/canal13.mpd
 
+#EXTINF:-1 tvg-name="Canal 13 HD " tvg-id="Canal 13 HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/72/6726493_33743DEAD3FC7032.png" group-title="TVDIGITALENCASA",Canal 13 HD 🇨🇱
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/C13/default/index.mpd
+
 #EXTINF:-1 tvg-id="CHV" tvg-name="CHV" tvg-logo="https://i.ibb.co/60YtW1H/chv.png" group-title="TVDIGITALENCASA",CHILEVISION HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dqUhhx1yCBJDp1mzJJA6qg", "kid":"knfaekUMU3qMu2yCnJOLyQ" },{ "kty":"oct", "k":"E6pTzM3gwIdabnVpMs8u9Q", "kid":"hEWhRQNyXVGot2MJPkkH+g" },{ "kty":"oct", "k":"F0VQQyWzeSLA1a2u6sgDwg", "kid":"c+/00+G8XmGaLGIc/6H4gg" } ], "type":"temporary" }
 https://cdn-live.mundogo.cl/chilevisionhd/chilevisionhd.mpd
+
+#EXTINF:-1 group-title="TVDIGITALENCASA" tvg-id="CHV" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/09/46/9467427_5919BE4BAA56D698.png", Chilevision HD 🇨🇱
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/CHV/default/index.mpd
 
 #EXTINF:-1 tvg-id="Mega" tvg-name="Mega" tvg-logo="https://i.ibb.co/KVwyHBQ/mega.png" group-title="TVDIGITALENCASA",MEGA HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -75,6 +87,11 @@ https://tr.live.clarovtrcdn.vtrplay.com/megaficcionhdchi/vxfmt=dp/playlist.m3u8?
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=
 https://tv-mgmt.gtd.cl/bpk-tv/C13/default/index.mpd
+
+#EXTINF:-1 tvg-id="CHV" tvg-name="CHV" tvg-logo="https://i.ibb.co/60YtW1H/chv.png" group-title="Nacionales",CHILEVISION HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dqUhhx1yCBJDp1mzJJA6qg", "kid":"knfaekUMU3qMu2yCnJOLyQ" },{ "kty":"oct", "k":"E6pTzM3gwIdabnVpMs8u9Q", "kid":"hEWhRQNyXVGot2MJPkkH+g" },{ "kty":"oct", "k":"F0VQQyWzeSLA1a2u6sgDwg", "kid":"c+/00+G8XmGaLGIc/6H4gg" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/chilevisionhd/chilevisionhd.mpd
 
 #EXTINF:-1 group-title="Nacionales" tvg-id="CHV" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/09/46/9467427_5919BE4BAA56D698.png", Chilevision HD 🇨🇱
 #EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
@@ -136,6 +153,11 @@ https://tv-mgmt.gtd.cl/bpk-tv/MEGA/default/index.mpd
 #EXTVLCOPT:http-referrer=https://vtrplay.com/
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 
+#EXTINF:-1 tvg-id="Mega" tvg-name="Mega" tvg-logo="https://i.ibb.co/KVwyHBQ/mega.png" group-title="Nacionales",MEGA HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"omisb3BTUd+mx3OY11VZ2A", "kid":"aPEVoOM+XuqA6n1DlAhRIg" },{ "kty":"oct", "k":"RvzUidoRiHnKg53LDMJgyg", "kid":"O0mp7/cJUPilYLh1X+uVAg" },{ "kty":"oct", "k":"zV8aUU7WOnbuyrEZWOPSww", "kid":"vZBRINS1WiSN/5S5by9xQw" } ], "type":"temporary" }
+https://cdn-live.mundogo.cl/megahd/megahd.mpd
+
 ##EXTVLCOPT:http-referrer=https://movistartv.cl/
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -166,8 +188,6 @@ https://tv-mgmt.gtd.cl/bpk-tv/ZONALA/default/index.mpd
 
 
 #EXTINF:-1 tvg-id="ETC TV HD" tvg-name="ETC TV HD" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/71/6714298_0F0B00286A0B18C8.png" group-title="Infantiles", ETC TV HD
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mundo.sintv.cl/license-proxy
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"efe46cffb9b65436ab510d335cdfbf3f":"5fb9cebeb05495faaf3cd7e2b7fc89a8","358aada002d256bbb301e9acf00b99ef":"a3f3f7ada22a202ae5dd213e4870ae7f","0710f095054457aca3aa665eed2d6a95":"a7a6ad68c41ce4596393d6f24b872338"}
 https://cdn-live.mundogo.cl/etctv/etctv.mpd
@@ -209,17 +229,6 @@ https://tv-mgmt.gtd.cl/bpk-tv/880/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=ed5c1fec4c400f482ad6cdad0db4861c:6c59a8f509cc28dd3bf743609b8a0d72
 https://aca-live-ott.izzigo.tv/7/out/u/dash/DREAMWORKS-HD-H265/default.mpd
 
-#EXTINF:-1 tvg-id="PAKA PAKA" tvg-name="Paka Paka AR" tvg-logo="nnada/Paka.png" group-title="Infantiles",PaKa PaKa HD
-#EXTVLCOPT:http-user-agent=Android
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ae7b0708be4edf3453c1ab9d6976974:8b31a9788f6dc12640ba69560fcb4b39
-#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
-http://cdn.sensa.com.ar/live/eds/PakaPaka/live_dash_cld/PakaPaka.mpd
-
-#EXTINF:-1 tvg-name="Onegai Plus" tvg-id="" tvg-logo="nnada/onegaiplus.png" group-title="Infantiles",Onegai Plus
-https://d2se29pyn6ypkx.cloudfront.net/v1/master/964e44f31073da95414e409f230fb47a468175f5/6469fafa-ca3b-40cd-b903-ab9c3eeea757/6469fafa-ca3b-40cd-b903-ab9c3eeea757/playlist.m3u8
-
 #EXTINF:-1 group-title="Infantiles" tvg-id="BABY TV" tvg-logo="https://i.imgur.com/UhxcIqw.png", Baby Tv 
 #EXTVLCOPT:http-user-agent=Android
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -232,18 +241,6 @@ https://cdn.sensa.com.ar/live/sta01/BabyTV/live_dash_cld/BabyTV.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"32beb7a4bf944f4aa28dabfd7ef8c6df":"004e8194a1fa95174fef946a41e15443","9f9258c1c9f94ce988ae08bb4a95bb91":"85d3ea8ebc2829ad952167ea5b768fda"}
 https://tv-mgmt.gtd.cl/bpk-tv/NICK2HD/default/index.mpd
-
-#EXTINF:-1 group-title="Infantiles" tvg-id="FUNBOX" tvg-logo="https://i.imgur.com/Yh9Cyn4.png", Fun Box
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mundo.sintv.cl/license-proxy
-https://cdn-live.mundogo.cl/funbox/funbox.mpd
-
-#EXTINF:-1 group-title="Infantiles" tvg-id="ZOOMOO" tvg-logo="https://i.imgur.com/klKJBHM.png" ch-number="324", ZooMoo Latino
-#EXTVLCOPT:http-user-agent=Android
-#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=070660c4a07ab644fba62dab07306d43:6786eb56337a318fce0b7f9cccf96478
-http://cdn.sensa.com.ar/live/sta01/ZooMoo/live_dash_cld/ZooMoo.mpd
 
 #EXTINF:-1 tvg-name="Cartoon Network" tvg-id="CARTOON NETWORK" tvg-logo="nnada/CN.png" group-title="Infantiles",Cartoon Network HD
 #EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
@@ -293,29 +290,7 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd
 	  
 -------- Cultura -------------
 
-
-#EXTINF:-1 tvg-id="Fashion TV" tvg-name="Fashion TV" tvg-logo="https://3038.images-vfp2.ott.kaltura.com/Service.svc/GetImage/p/3038/entry_id/0b7ab6b146da42d582433ebde0ee70ee_20/version/0" group-title="Cultura", Fashion TV
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-##EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
-#KODIPROP:inputstream.adaptive.license_key=22d19599896b4a2b9d819cd3f06ae9c6:0566a2384ec15167ab3186b32fb87471
-#https://vodafone.sintv.cl/pr/LIVE/sdash/LIVE$391/index.mpd/Manifest.mpd?start=LIVE&end=END&device=DASH_AVC_FULLHD
-
-
-#EXTINF:-1 tvg-id="OneToro TV" tvg-name="OneToro TV" tvg-logo="https://3038.images-vfp2.ott.kaltura.com/Service.svc/GetImage/p/3038/entry_id/da023a13c212469da8ab4184ad98a2ef_20/version/0" group-title="Cultura", OneToro TV
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"i6i/fvU3Gq6qhflmsuyK7g","kid":"FL1XLBkaQjidvovlfVWzMw"}],"type":"temporary"}
-#https://vodafone.sintv.cl/pr/LIVE/sdash/LIVE$582/index.mpd/Manifest.mpd?start=LIVE&end=END&device=DASH_AVC_FULLHD
-
-#EXTINF:-1 tvg-name="Lifetime HD" tvg-id="LIFETIME" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/07/17/7174958_C8682663671689F2.png" group-title="Cultura",Lifetime HD
-#EXTVLCOPT:http-user-agent=Android
-#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6f85d8282bb6fe2db8f34299d5742f02:28d49f409d718ecad8f82f477d3beb77
-http://cdn.sensa.com.ar/live/eds/Lifetime/live_dash_cld/Lifetime.mpd
-
-#EXTINF:-1 tvg-name="Lifetime HD (op2)" tvg-id="LIFETIME" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/07/17/7174958_C8682663671689F2.png" group-title="Cultura",Lifetime HD (op2)
+#EXTINF:-1 tvg-name="Lifetime HD (op2)" tvg-id="LIFETIME" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/07/17/7174958_C8682663671689F2.png" group-title="Cultura",Lifetime HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"AG0E/0MOC1WQC1NAJKeiMw","kid":"Mmf9Mt4bUmCf9lBd1n0yCw"},{"kty":"oct","k":"vkEGL4NT4GBVrUkyhzFUgQ","kid":"/U7rgpz8XFSC6ch9PvqwuA"},{"kty":"oct","k":"4Ij3e+PZGRi+noXCgsyITg","kid":"IhORPJfkX+yDugTWX+ZTzg"},{"kty":"oct","k":"w4MaefLqDwD1r5jdNbrZ6w","kid":"nqz7c/XqXnSDs8pYGLm+ag"}],"type":"temporary"}
@@ -327,13 +302,6 @@ https://strm.edzeta.site/bpk-dgo/dash/1159.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0970bbe8d0b64aef871013c8b3a7f777:1889dd640b960aa5acf5443a564b0285
 https://tv-mgmt.gtd.cl/bpk-tv/NATGEO/default/index.mpd
-
-#EXTINF:-1 tvg-id="LOVE NATURE HD" tvg-name="Love Nature HD" tvg-logo="https://geo.edge.pontiscloud.com:9002/images/1801/CH_LOGO/800/542/0/0/64384481074718.png" group-title="Cultura" ,Love Nature HD
-#EXTVLCOPT:http-user-agent=Android
-#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ea6437084f6c055c7c856f86361e86fa:9791c0e6f72b4a5eacf8bddfa5290209
-http://cdn.sensa.com.ar/bpk-tv/LoveNature/default/index.mpd
 
 #EXTINF:-1 tvg-name="Animal Planet HD op2" tvg-id="Animal Planet" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6404328_6EA16AC5A8C8CA82.png" group-title="Cultura",Animal Planet HD (op2)
 #EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
@@ -455,12 +423,6 @@ https://jireh-5-hls-video-cl-entel.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc
 #EXTINF:-1 tvg-name="T13 SD " tvg-id="T13 En Vivo" tvg-logo="nnada/T13.png" group-title="Noticias",T13 SD  🇨🇱
 https://jireh-5-hls-video-cl-entel.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist_400.m3u8?dpssid=b131198217738064d0133fb9ce2&sid=ba5t1l1xb2152231451264d013403713d&ndvc=0
 
-#EXTINF:-1 tvg-name="TVN 24 Horas HD " tvg-id="24 Horas HD" tvg-logo="nnada/24hrs2.png" group-title="Noticias",TVN 24 Horas HD  🇨🇱
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://epg.stationlink.cl/api/results.php?keyid=d156b089a39b5e81be1ea8a6d1c9fc4e&key=015d0fec74f71ff77114bb439ef07a8b
-##EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.100
-#https://dtvott-abc.akamaized.net/dash_live_1001/manifest.mpd
-
 #EXTINF:-1 tvg-name="TVN 24 Horas 2 HD " tvg-id="24 Horas HD" tvg-logo="nnada/24hrs2.png" group-title="Noticias",TVN 24 Horas 2 HD  🇨🇱
 https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8?uid=9mqmToC3kU1XBu7ThwCNW24WlsrzBwiC&sid=ItqwFg7T0TmkJzSPW1XkGqx9UmZ6vb1B&pid=HjCDZPgL8Za4apUngTA71BVudeONZA3M&an=screen&at=web-app&av=v5.2.324&ref=https%3A%2F%2Fwww.24horas.cl%2Fsenal-24hplay&res=1411x819&without_cookies=false&listenerid=&dnt=true
 
@@ -470,46 +432,6 @@ https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8?uid=9mqmTo
 #KODIPROP:inputstream.adaptive.license_key=aa611985e0c890fdf50d5c6ed88ad0c0:61dc9d01e315bf46ee43bc9fe882ebd8
 https://aca-live-ott.izzigo.tv/2/out/u/dash/FOX-NEWS-HD/default.mpd
 
-#EXTINF:-1 tvg-name="CHV Noticias" tvg-id="CHV Noticias" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/CHV_Noticias_2018.png/1200px-CHV_Noticias_2018.png" group-title="Noticias",CHV Noticias HD  🇨🇱
-#EXTVLCOPT:http-referrer=https://movistartv.cl/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=32cbe575966a473f8d9daf2aabf2cc28:237e9914e21c6cd6ffc4ce245f0a19cb
-http://b45058.7.cdn.telefonica.com/45058/_-_psi_-_/sdash/LIVE$CHVNoticias/index.mpd/Manifest?start=2024-08-11T00:00:00Z&end=END&device=Dashavc_2s&gvpPodType=1&tcdn-bitrate-filter=UHD4K
-
-#EXTINF:-1 tvg-name="CNN Chile " tvg-id="CNN CHILE" tvg-logo="nnada/CNN_CL.png" group-title="Noticias",CNN Chile 🇨🇱
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mundo.sintv.cl/license-proxy
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"1ee937c319e05bb78eec1038f8513836":"53e3d3d14753f8ebabbc5f04fb638539","096abed739ae5b79a52f8506b62857e8":"7fce33a3ea86cef513f36bccc16eecc5","0dbd42bdb8ad5d6b8eeb3016f12ac24a":"14aa15769cb1628f1319ff19b4c0e430"}
-https://cdn-live.mundogo.cl/cnnchile/cnnchile.mpd
-
-#EXTINF:-1 tvg-name="CNN Español" tvg-id="CNN ESPAÑOL" tvg-logo="nnada/CNN_ES.png" group-title="Noticias",CNN Español
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mundo.sintv.cl/license-proxy
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"b5d579adbc5451eb89decd8f94e49d38":"3b32f75ff50eda03d1d3e3825672bfec","29b0444a70a254f8b691d6cca573698c":"8640b81a16744f0d314e1a9999123165","a39db09f42465c38b5c84e38b6229e10":"037d66c0986176a07853228d0305d27b"}
-https://cdn-live.mundogo.cl/cnnespanol/cnnespanol.mpd
-
-#EXTINF:-1 tvg-name="DW ESPAÑOL" tvg-id="DW ESPAÑOL" tvg-logo="nnada/DW.png" group-title="Noticias",DW Español HD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=5a24d18dae30689d554afc6fc1348734:2f7420bfacfeac635b9e8ed0b5afa554
-http://cdn.sensa.com.ar/live/eds/DWChannel/live_dash_cld/DWChannel.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
-
-#EXTINF:-1 tvg-name="Meganoticias HD " tvg-id="449" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/Meganoticias_Ahora.svg/revision/latest/scale-to-width-down/1200?cb=20240302042349" group-title="Noticias",Meganoticias Ahora HD 🇨🇱
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://edzeta.site/lista-zeta/license.php?id=Mega_Noticias_Now
-#https://edzeta.site/lista-zeta/Mega_Noticias_Now.m3u8
-
-#EXTINF:-1 tvg-name="TELEFE INTERIOR" tvg-id="TELEFE INTERIOR" tvg-logo="https://img.edzeta.cl/Telefe.png" group-title="Noticias",Telefe 🇦🇷
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=9bb54fccffaddd38916e85c08de98cc9:d06f509c418eb6f1b2fc2b766445328b
-http://cdn.sensa.com.ar/live/eds/Telefe/live_dash_cld/Telefe.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
-
-#EXTINF:-1 tvg-id="TVEi" tvg-name="TVEi" group-title="Noticias" tvg-logo="https://3038.images-vfp2.ott.kaltura.com/Service.svc/GetImage/p/3038/entry_id/dd60890cbbbf4704a89968766f0a1c3a_20/version/0", TVE Internacional
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=36a097bc2c05448a8fca5147be31fb60:51155ec171383d530ca22389aede25ed
-#https://vodafone.sintv.cl/pr/sdash_VTV_LIVE/LIVE$40/2.mpd/Manifest.mpd?start=LIVE&end=END&device=DASH_P_OTT_SSP_LIVE
 
 ------------Cine & Series-------------
 
@@ -1394,5 +1316,897 @@ https://strm.edzeta.site/bpk-dgo/dash/1273.mpd
 https://edzeta.site/lis6c697374612d7a657461z/N-GOL_TV_-_Latam.m3u8
 
 
+----------MUSICA----------
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://edelweiss.fm/wp-content/uploads/2022/07/logo-edelweiss.png" group-title="Musica", Edelweiss TV*
+https://streamserver.sintv.cl/Edelweiss/smil:Edelweiss.smil/manifest.mpd
+
+#EXTINF:-1 tvg-id="carolinatv.cl" group-title="Musica" tvg-logo="https://img.edzeta.site/CarolinaTV.png",Carolina TV
+https://mdstrm.com/live-stream-playlist/63a06468117f42713374addd.m3u8
+
+#EXTINF:-1 tvg-id="VClasic" group-title="Musica" tvg-logo="https://img.edzeta.site/vClassic-TV.png" ch-number="69",VClassic
+https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
+
+#EXTINF:-1 group-title="Musica" tvg-logo="https://img.edzeta.site/vClassicTV.png" ,VClassic Tropical
+https://5eaccbab48461.streamlock.net:1936/8222/8222/playlist.m3u8
+
+#EXTINF:-1 group-title="Musica" tvg-logo="https://edzeta.site/img/MTV.png", MTV Live FHD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=bb93c48e09514b5190bb6e7899473b19:e658706541fc56276f3fb1f04d115819
+https://tv-mgmt.gtd.cl/bpk-tv/MTVHD/default/index.mpd
+
+#EXTINF:-1 group-title="Musica" tvg-logo="https://edzeta.site/img/MTV.png", MTV Alemania
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=de964ef8f9cd50edb55de3e4a1aa9f1f:969e2e74f5a530e9cee1bf68c412e3f8
+https://ac-009.live.p7s1video.net/0e6fdb42/t_009/mtv-de/cenc-default.mpd
+
+#EXTINF:-1 group-title="Musica" tvg-id="BANDAMAX" tvg-logo="https://i.imgur.com/THSFKFG.png", Bandamax
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=d014b4c7f22d490f56e2d7d3fe125c15:69864ad4b98d06e9fcf2430ed67b6c33
+https://aca-live-ott.izzigo.tv/2/out/u/dash/BANDAMAX-HD/default.mpd
+
+#EXTINF:-1 group-title="Musica" tvg-id="0523" tvg-logo="http://img.edzeta.cl/ClubMTV.png", Club MTV
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb24b3da82c4474b803cb536b582db9b:b00c6d2657a78a1299ea01d0f8154069
+https://tv-mgmt.gtd.cl/bpk-tv/MTVDNC/default/index.mpd
+
+#EXTINF:-1 tvg-name="HTV" tvg-id="HTV" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/40/6402303_A33849F933ADA8BD.png" group-title="Musica",HTV HD
+#EXTVLCOPT:http-user-agent=Android
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5061291f547143b40b8abedfdff59174:fb0a1787499cbc22c2ecaf1b43dd4da7
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
+http://cdn.sensa.com.ar/live/eds/HTV/live_dash_cld/HTV.mpd
+
+#EXTINF:-1 group-title="Musica" tvg-id="MTV 80's" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/16/04/16047161_7791D43C2BB5F0AA.png", MTV 80s
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=d914179917b943da8604712706124c08:329e2cb29e9cdb7cf5f45ff9efeab5e9
+https://tv-mgmt.gtd.cl/bpk-tv/MTV80/default/index.mpd
+
+#EXTINF:-1 group-title="Musica" tvg-name="MTV 80s (op2)" tvg-id="MTV 80's" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/16/04/16047161_7791D43C2BB5F0AA.png", MTV 80s (op2)
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=d914179917b943da8604712706124c08:329e2cb29e9cdb7cf5f45ff9efeab5e9
+https://tv-mgmt.gtd.cl/bpk-tv/MTV80/default/index.mpd
+
+#EXTINF:-1 group-title="Musica" tvg-id="MTV 90s" tvg-logo="nnada/MTV_90s_2022.png", MTV 90s
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://drm.antik.sk/widevine/key
+https://dash2.antik.sk/stream/hisi_mtv_90/playlist_cbcs.mpd
+
+#EXTINF:-1 tvg-name="MTV HITS" tvg-id="MTV HITS" tvg-logo="nnada/MTVHits.png" group-title="Musica",MTV HITS HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6524a755abde4ceaa700810081e12a4e:25be729f966c8cd3a0b3fbc38daf1001
+https://tv-mgmt.gtd.cl/bpk-tv/MTVHIT/default/index.mpd
+
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://epg.stationlink.cl/api/results.php?keyid=a354b0c82a3a720c4a6f52ed5a1190f4&key=45a76dcc84f058cfabc8b958d7303b28
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.100
+https://edge-mix02-mus.cvattv.com.ar/live/c6eds/Quiero_HD/SA_Live_dash_enc/Quiero_HD.mpd
+
+#EXTINF:-1 tvg-name="Retro Plus TV FHD " tvg-id="ext" tvg-logo="nnada/retroplus.png" group-title="Musica",Retro Plus TV FHD  🇨🇱
+https://video06.logicahost.com.br/retropluslive01/retropluslive01/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Retro Plus TV FHD 2 " tvg-id="ext" tvg-logo="nnada/retroplus.png" group-title="Musica",Retro Plus TV 2 FHD  🇨🇱
+https://video06.logicahost.com.br/retropluslive02/retropluslive02/playlist.m3u8
 
 
+----------HBO PACK----------
+
+
+#EXTINF:-1 tvg-name="HBO HD" tvg-id="HBO HD" tvg-logo="nnada/HBO.png" group-title="Cine & Series",HBO HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=00cab9f4a3d04c70b2cbd77dc8fbcd1f:9ccc52b6e6469323e02d1af528723860
+https://tv-mgmt.gtd.cl/bpk-tv/HBO/default/index.mpd
+
+#EXTINF:-1 tvg-name="HBO 2 HD" tvg-id="HBO 2" tvg-logo="nnada/HBO2.png" group-title="Cine & Series",HBO 2 HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=4997b2383a3d4ea9a2124c4ded95a7a5:4b71435cc24fca3db28631d56cf8c945
+https://tv-mgmt.gtd.cl/bpk-tv/HBO2/default/index.mpd
+
+#EXTINF:-1 tvg-name="HBO Family MX HD" tvg-id="HBO FAMILY ESTE" tvg-logo="nnada/HBOFamily.png" group-title="Cine & Series",HBO Family MX HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3b1b15c86e64344e8802b06b806957c5:114983add26911b589595d931b505ca5
+#EXTVLCOPT:http-referrer=https://www.izzigo.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.100
+https://aca-live-ott.izzigo.tv/5/out/u/dash/HBO-FAMILY-HD/default.mpd
+
+#EXTINF:-1 tvg-name="HBO Family HD" tvg-id="HBO FAMILY ESTE" tvg-logo="nnada/HBOFamily.png" group-title="Cine & Series",HBO Family HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c0d467db044a474aa9f1908ce738cf78:61bc5a23ede2bafa61426bcabce3dd94
+https://tv-mgmt.gtd.cl/bpk-tv/HBOFAE/default/index.mpd
+
+#EXTINF:-1 tvg-name="HBO Mundi MX HD" tvg-id="HBO MUNDI" tvg-logo="nnada/HBOmundi.png" group-title="Cine & Series",HBO Mundi HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f555b5d80039432ab8ee73167796dac1:103f4a6efe01aeb5c242c9f04a1189b4
+https://tv-mgmt.gtd.cl/bpk-tv/MAX/default/index.mpd
+
+#EXTINF:-1 tvg-name="HBO Plus HD" tvg-id="HBO PLUS ESTE" tvg-logo="nnada/HBOplus.png" group-title="Cine & Series",HBO Plus HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=1ba4d1e39f674870a8e34645980be5f4:b4ca8d237c9fe0a883292572bb83b98e
+https://tv-mgmt.gtd.cl/bpk-tv/HBOPO/default/index.mpd
+
+#EXTINF:-1 tvg-name="HBO POP HD" tvg-id="HBO POP" tvg-logo="nnada/HBOpop.png" group-title="Cine & Series",HBO POP HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=caf81f1f67dd4fad9cf9ca674a6e6918:a4b0e5fe969aa29b0a53e5e7f03b9e18
+https://tv-mgmt.gtd.cl/bpk-tv/MAXUPHD/default/index.mpd
+
+#EXTINF:-1 tvg-name="HBO Signature HD" tvg-id="HBO SIGNATURE" tvg-logo="nnada/HBOsignature.png" group-title="Cine & Series",HBO Signature HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0edf8e3ff00b452d8f60b861a4c44694:4554baf19073573e2c29f55b1b8e1fce
+https://tv-mgmt.gtd.cl/bpk-tv/HBOSIGN/default/index.mpd
+
+#EXTINF:-1 tvg-name="HBO Xtreme HD" tvg-id="HBO XTREME" tvg-logo="nnada/HBOxtreme.png" group-title="Cine & Series",HBO Xtreme HD
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=ec44b847c64c42d9ae596fe362e6c187:19a4649fa28357dc56e3d1ac1fc7d6e4
+https://tv-mgmt.gtd.cl/bpk-tv/MAXO/default/index.mpd
+
+----------TNT SPORTS----------
+
+
+#EXTINF:-1 tvg-name="TNT Sports HD AR " tvg-id="TNT SPORTS_ar" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888865_376D16408CE9500A.png" group-title="TNT Sports",TNT Sports HD 🇦🇷
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c26371079e89206d63e1454893e881b6:adac3c3b3774e411d6e49724f7ea0ee3
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
+http://cdn.sensa.com.ar/live/eds/TNTSports/live_dash_cld/TNTSports.mpd
+
+#EXTINF:-1 tvg-name="TNT Sports HD AR op2" tvg-id="TNT SPORTS_ar" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888865_376D16408CE9500A.png" group-title="TNT Sports",TNT Sports HD 🇦🇷 (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"gg1KLvDZaAZT+SzT1HEHAA","kid":"NTektvf3RpS8Q7xePs8JuA"},{"kty":"oct","k":"2QXt9wQzAT8iRERg/k4BIQ","kid":"xGl79FjaUvi5azbM52HVcQ"},{"kty":"oct","k":"HDkU8S2TDQI16KAL+MypuQ","kid":"5KAE56i1XBWP/YoBCkVOFg"},{"kty":"oct","k":"RqvqzHd6xfogPKus7CExWA","kid":"qC1KH/hnXsKJCmNN9xu5hA"},{"kty":"oct","k":"O6lm6NM9cpXfS+KUN/4YQw","kid":"XlqoFy7WU+mJJb4bnr8HBw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+https://strm.edzeta.site/bpk-dgo/dash/1233.mpd
+
+#EXTINF:-1 tvg-name="TNT Sports Premium HD" tvg-id="TNT Sports Premium_cl" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888867_1F5ED4CEA8EE9A89.png" group-title="TNT Sports",TNT Sports Premium 🇨🇱
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"e37512a1058943c4b3e9b947623d662a":"9e03dd73dd227505a7589766748def3b","66fdbc2636094ac280449dbe6c059163":"84d31c5fc86c964d3a083c5fe93cc33a"}
+https://tv-mgmt.gtd.cl/bpk-tv/CDF_HD/default/index.mpd
+
+#EXTINF:-1 tvg-name="TNT Sports Premium HD" tvg-id="TNT Sports Premium_cl" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888867_1F5ED4CEA8EE9A89.png" group-title="TNT Sports",TNT Sports Premium 🇨🇱 (op3)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"IxNSl/MfB52PUwJ7w5ui2A","kid":"ZrtDG8THRJuC2kBgPzaodg"},{"kty":"oct","k":"/7U6lPSPSZVGhpwfnodxhw","kid":"G5mE3GayWf6K5ZfLT8H0ww"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+https://strm.edzeta.site/bpk-dgo/dash/1232.mpd
+
+
+----------Universal----------
+
+
+#EXTINF:-1 tvg-shift="3" tvg-id="UNIVERSAL CRIME HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.701883225_UniversalCrime-Claro.png.4aae93a0b99c367cbf5a8009be92aa7d.png" group-title="Cine & Series",Universal Crime HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"qEpUZtARBbY4NwmR35Ka8w","kty":"oct","kid":"xFZgXjNrX_SI7cD0pFpYrw"} , {"k":"xwNy0JYdDdK6sB50Iq8_WA","kty":"oct","kid":"lpC40q_UWeSTJr5Oephr0Q"} , {"k":"IspoGyRW8ue9_TbH1Nt5Vg","kty":"oct","kid":"Jt1wDqamVRuxdi0vHAVuiw"}],"type":"temporary"}
+https://univpluslivetbx.akamaized.net/universalcrimet2/manifest.mpd
+
+#EXTINF:-1 tvg-shift="3" tvg-id="UNIVERSAL CRIME HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.701883225_UniversalCrime-Claro.png.4aae93a0b99c367cbf5a8009be92aa7d.png" group-title="Cine & Series",Universal Crime HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"3a908a5d38a9c496ced27faa6bf5ff8e":"85a5835a92bd7f87faf5ffbcb8814d33"}
+#EXTVLCOPT:http-referrer=https://www.izzigo.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://aca-live-ott.izzigo.tv/2/out/u/dash/UNIVERSAL-CRIME-HD/default.mpd
+
+#EXTINF:-1 tvg-shift="3" tvg-id="UNIVERSAL PREMIERE HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1316118004_UniversalPremiere-Claro.png.dd093e77a73e1cc71ccb2e3b7983d187.png" group-title="Cine & Series",Universal Premier HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"MgIR9QeG2O0wVmPk5oA7PQ","kty":"oct","kid":"067UtH3WV1-xrsjZbjnKwQ"} , {"k":"XqsjTI4x1b65lyBIf7Zx_g","kty":"oct","kid":"HkqWt10UVSaJvgD-0KMy7w"} , {"k":"zTNTL9zaOL0Rl4pCQbTLcQ","kty":"oct","kid":"c3GUdj1QUQqz6VZ5TpLVEg"}],"type":"temporary"}
+https://univpluslivetbx.akamaized.net/universalpremiert2/manifest.mpd
+
+#EXTINF:-1 tvg-shift="3" tvg-id="UNIVERSAL PREMIERE HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1316118004_UniversalPremiere-Claro.png.dd093e77a73e1cc71ccb2e3b7983d187.png" group-title="Cine & Series",Universal Premier HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"9ccd5dd0c86a40ed719b83e1801bcd88":"6d5e62525837ba9b7e09cfb8716116ba"}
+#EXTVLCOPT:http-referrer=https://www.izzigo.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://aca-live-ott.izzigo.tv/2/out/u/dash/UNIVERSAL-PREMIERE-HD/default.mpd
+
+#EXTINF:-1 tvg-shift="3" group-title="Cine & Series" tvg-id="UNIVERSAL REALITY HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1365450986_UniversalReality-Claro.png.4b8fc78cff89969ea5a888a779654e44.png", Universal Reality HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"flznr_gAjocBm4VimZykjA","kty":"oct","kid":"EcuLHwEYV2GwVxjHAPrCIQ"} , {"k":"n1MI9o7nlodEOinZLGgcJw","kty":"oct","kid":"3qakaT9CUqGpu4sOLTAzMQ"} , {"k":"CvKaqsQapvAxg41WN0uCBg","kty":"oct","kid":"ns9AG4yQVD-uxUB5m7yWGQ"}],"type":"temporary"}
+https://univpluslivetbx.akamaized.net/universalrealityt2/manifest.mpd
+
+#EXTINF:-1 tvg-shift="3" group-title="Cine & Series" tvg-id="UNIVERSAL REALITY HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1365450986_UniversalReality-Claro.png.4b8fc78cff89969ea5a888a779654e44.png", Universal Reality HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"02a02bce7a3c518386e0da4e5ec0188d":"071c7cc4c2f33e1e2d3fa3807d1bbbcc"}
+#EXTVLCOPT:http-referrer=https://www.izzigo.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://aca-live-ott.izzigo.tv/2/out/u/dash/UNIVERSAL-REALITY-HD/default.mpd
+
+#EXTINF:-1 tvg-shift="3" tvg-id="UNIVERSAL CINEMA HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1414587199_UniversalCinema-Claro.png.34bdc6633205429349f7a9bb8c9f0a51.png" group-title="Cine & Series",Universal Cinema HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"jmY4ztDYvMsSw6vGV_L4SQ","kty":"oct","kid":"Y7PMvBbmXwKqh6ksxwfp3g"} , {"k":"x1R3PJL2k3uWjY3h5WaI7g","kty":"oct","kid":"jGW73DCjX1ezrNyFzQcYgA"} , {"k":"uYkaI057Cl0GQKn6JjfoDQ","kty":"oct","kid":"iMEYbE86Um2VGIG6nVkgqg"}],"type":"temporary"}
+https://univpluslivetbx.akamaized.net/universalcinemat2/manifest.mpd
+
+#EXTINF:-1 tvg-shift="3" tvg-id="UNIVERSAL CINEMA HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1414587199_UniversalCinema-Claro.png.34bdc6633205429349f7a9bb8c9f0a51.png" group-title="Cine & Series",Universal Cinema HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=44a9e6477651b3b47f3a2b727d562835:1b87070d9fad5dee0a35ff014a2063a7
+#EXTVLCOPT:http-referrer=https://www.izzigo.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://aca-live-ott.izzigo.tv/2/out/u/dash/UNIVERSAL-CINEMA-HD/default.mpd
+
+#EXTINF:-1 tvg-shift="3" tvg-id="UNIVERSAL COMEDY HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1490211344_UniversalComedy-Claro.png.61669777e8ebe4f90876b91db5ef8466.png" group-title="Cine & Series",Universal Comedy HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"cxg_9ECOCiX6PHhSgBWWVA","kty":"oct","kid":"ERB5jw_HV2OaYOQl4NCuQQ"} , {"k":"qorXEYC7aZf84awoq46Fgw","kty":"oct","kid":"Dvf_TYy2Xg-innIdAfnfoQ"} , {"k":"ziz8op6DBagEkUrl0oKm6Q","kty":"oct","kid":"FtRhe2jTXx6QtfZ5giCKIQ"}],"type":"temporary"}
+https://univpluslivetbx.akamaized.net/universalcomedyt2/manifest.mpd
+
+#EXTINF:-1 tvg-shift="3" tvg-id="UNIVERSAL COMEDY HD" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1490211344_UniversalComedy-Claro.png.61669777e8ebe4f90876b91db5ef8466.png" group-title="Cine & Series",Universal Comedy HD (op2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"92b162b0b1d0dbb1e401f5845b4ce109":"83b7ae276784a7f78f4a0c1190974d5c"}
+#EXTVLCOPT:http-referrer=https://www.izzigo.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://aca-live-ott.izzigo.tv/2/out/u/dash/UNIVERSAL-COMEDY-HD/default.mpd
+
+----------Adultos----------
+
+#EXTINF:-1 tvg-shift="3" tvg-id="Playboy" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1490211344_UniversalComedy-Claro.png.61669777e8ebe4f90876b91db5ef8466.png" group-title="Adultos",Playboy
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f51160ad68cb411abbae2b7e51e20ad4:3015d76327dcd38f19037e5af639ebb2
+https://cdn.sensa.com.ar/live/eds/Playboy/live_dash_cld/Playboy.mpd
+
+#EXTINF:-1 tvg-shift="3" group-title="Adultos" tvg-id="Playboy TV" tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_03/large.1365450986_UniversalReality-Claro.png.4b8fc78cff89969ea5a888a779654e44.png", Playboy TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={8b4af3cb6ba681d3df359cd404c11776:9b010f4ba2a71a3ef2706aed3549189b}
+http://video.beeline.tv/live/d/channel047.isml/manifest-stb.mpd
+
+----------Stingray Music----------
+
+
+#EXTINF:0 tvg-id="STINGRAY EL SALON CHILL" group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0902_500x500.png", STINGRAY SALÓN CHILL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/CHILL2/default/index.mpd
+
+#EXTINF:0 tvg-id="STINGRAY CLÃ SICOS INDIE"  group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0903_500x500.png", STINGRAY CLÁSICOS INDIE
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/INDIE/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0904_500x500.png", STINGRAY NEW AGE
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/NEWAGE/default/index.mpd
+
+#EXTINF:0 tvg-id="STINGRAY REGGAETÃ" group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0908_500x500.png", STINGRAY REGGAETÓN
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/REGGTN/default/index.mpd
+
+#EXTINF:0  group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0910_500x500.png", STINGRAY SAMBA Y PAGODE
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/SAMBA/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0911_500x500.png", STINGRAY LATINO TROPICAL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/LATTRO/default/index.mpd
+
+#EXTINF:0 tvg-id="STINGRAY SALSA Y MERENGUE" group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0912_500x500.png", STINGRAY SALSA Y MERENGUE
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/SALSA/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0913_500x500.png", STINGRAY SESIONES DANCEHALL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/DHALL/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0915_500x500.png", STINGRAY CLÁSICOS DEL DANCE
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/CDANCE/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0917_500x500.png", STINGRAY SILK
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/SILK/default/index.mpd
+
+#EXTINF:0 tvg-id="STINGRAY ROMANCE LATINO" group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0919_500x500.png", STINGRAY ROMANCE LATINO
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/ROMANC/default/index.mpd
+
+#EXTINF:0 tvg-id="STINGRAY POP ADULTO" group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0920_500x500.png", STINGRAY POP ADULTO
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/POPAD/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0921_500x500.png", STINGRAY ROCK DE BRASIL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/RBRASIL/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0922_500x500.png", STINGRAY EURO HITS
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/EUROH/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0923_500x500.png", STINGRAY AÑOS 70
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/EXIT70/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0924_500x500.png", STINGRAY AÑOS 90
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/EXIT90/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0926_500x500.png", STINGRAY SOLO PARA PEQUES
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/PEQUES/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0927_500x500.png", STINGRAY CLUB DE BAILE
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/BAILE/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0930_500x500.png", STINGRAY FIESTA CONTINUA
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/FIESTAC/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0932_500x500.png", STINGRAY RnB & SOUL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/SOUL/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0933_500x500.png", STINGRAY VIEJITAS PERO BUENÍSIMAS
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/VIEJI/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0935_500x500.png", STINGRAY AÑOS 80
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/EXIT80/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0936_500x500.png", STINGRAY POP LATINO ACTUAL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/POPLAT/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0937_500x500.png", STINGRAY ÉXITOS RECIENTES
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/EXITOS/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0938_500x500.png", STINGRAY ÉXITOS DE ITALIA
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/ITALIA/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0939_500x500.png", STINGRAY ESTÁNDARES
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/ESTAND/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0940_500x500.png", STINGRAY POPCORN
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/POPC/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0941_500x500.png", STINGRAY GRANDES BANDAS
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/BIGBAND/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0942_500x500.png", STINGRAY BLUES
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/BLUES/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0943_500x500.png", STINGRAY MAESTROS DEL JAZZ
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/FIESTAS/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0945_500x500.png", STINGRAY MARIACHI Y RANCHERAS
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/MARCHI/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0946_500x500.png", STINGRAY VIVA MÉXICO
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/MEXICO/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0947_500x500.png", STINGRAY ÉXITOS DE LAS AMÉRICAS
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/AMERIC/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0948_500x500.png", STINGRAY ÉXITOS BRASIL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/EBRASIL2/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0949_500x500.png", STINGRAY ÉXITOS DE BRASIL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/EBRASIL/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0950_500x500.png", STINGRAY JAMMIN' REGGAE
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/REGGAE/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0951_500x500.png", STINGRAY EL SALÓN CHILL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/CHILL/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0952_500x500.png", STINGRAY MÚSICA DEL MUNDO
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/MUNDO/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0953_500x500.png", STINGRAY TANGO
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/TANGO/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0954_500x500.png", STINGRAY ROCK ALTERNATIVO
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/ROCKAL/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0955_500x500.png", STINGRAY HIMNOS DEL ROCK
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/HIMNOS/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0956_500x500.png", STINGRAY ROCK EN ESPAÑOL
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/ROCKES/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0957_500x500.png", STINGRAY HARD ROCK
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/HROCK/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0959_500x500.png", MÚSICA CLÁSICA
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/CLAS1/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0960_500x500.png", STINGRAY COCKTAIL LOUNGE
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/CLOUNGE/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0961_500x500.png", STINGRAY MÚSICA LIGERA
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/LIGERA/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0962_500x500.png", STINGRAY OPERA PLUS
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/HOLIDAY/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0963_500x500.png", STINGRAY MAESTROS DEL CLÁSICO
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/MCLASI/default/index.mpd
+
+#EXTINF:0 group-title="Stingray Music" group-logo="https://play-lh.googleusercontent.com/UQ09DwgFAp3oTaTddK94dU3fW0b5RH3xiOQa0TVeZYk5eSNxsTwu7WEdzRTJYWT9avDa" tvg-logo="https://gtdtv.gtd.cl/RTEFacade/images/attachments/0964_500x500.png", STINGRAY JAZZ LATINO
+#EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+https://tv-mgmt.gtd.cl/bpk-tv/JAZZLA/default/index.mpd
+
+
+----------SportsPack----------
+
+#EXTINF:-1 tvg-id="FR | Eurosport 1" tvg-name="" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/ESP" group-title="SportsPack",EUROSPORT 1 (🇫🇷)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=15b830e0b73b0b8ef99786121997d5f5:51646d5e500648c6a4e319c7861e963f
+https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/at8teepvrn/out/v1/ab8d59a847f046c88f07a7f3d115d7fe/cenc.mpd
+
+#EXTINF:-1 tvg-id="FR | Eurosport 2" tvg-name="" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/ESP2" group-title="SportsPack",EUROSPORT 2 (🇫🇷)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7a98f8e748e2e14057e9f99ac8e3a025:a0d9aa1a419ced1f9f4c2804b92ee0f7
+https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/crenwml9jf/out/v1/09518f97387b4ea5a69279a1aa1daf0a/cenc.mpd
+
+#EXTINF:-1 tvg-id="TV4Sportkanalen(Swedish).se" tvg-name="" tvg-logo="https://tvmedia.image-service.eu-north-1-prod.vmnd.tv/api/v2/img/641b17cfe4b09e96a46190d9-1726585509136?location=logoColourHorizontal" group-title="SportsPack",TV4 SPORTKANALEN (🇫🇮)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=20f9a036eabc3930b2b1d124778090e6:b557b2e61b73935ef74bfa22d8ea2c34
+https://live.streaming.a2d.tv/asset/20465728.isml/dash.mpd
+
+#EXTINF:-1 tvg-id="TV4Fotboll(Swedish).se" tvg-name="" tvg-logo="https://tvmedia.image-service.eu-north-1-prod.vmnd.tv/api/v2/img/641b183be4b0315f0782f829-1726585584570?location=logoColourHorizontal" group-title="SportsPack",TV4 FOTBOLL (🇫🇮)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a518c629bd683a4eba5f2a793bcb48d6:49642d2151ac6c3f8453bbfc4b3fdfc0
+https://live.streaming.a2d.tv/asset/20465725.isml/dash.mpd
+
+#EXTINF:-1 tvg-id="TV4Hockey(Swedish).se" tvg-name="" tvg-logo="https://tvmedia.image-service.eu-north-1-prod.vmnd.tv/api/v2/img/641b1912e4b0315f0782f830-1726585700785?location=logoColourHorizontal" group-title="SportsPack",TV4 HOCKEY (🇫🇮)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4acd16b6b6933abca01a66f865eef7c1:b2a4e27e05d34e98dd7c09fadd96ab09
+https://live.streaming.a2d.tv/asset/20465723.isml/dash.mpd
+
+#EXTINF:-1 tvg-id="TV4Motor(Swedish).se" tvg-name="" tvg-logo="https://tvmedia.image-service.eu-north-1-prod.vmnd.tv/api/v2/img/641b1824e4b01e6e63d1099e-1726585557024?location=logoColourHorizontal" group-title="SportsPack",TV4 MOTOR (🇫🇮)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f5b4f9bd84c434fe97e27488b06f3f1a:79c073d1dc0ee83b204d930309e80ed7
+https://live.streaming.a2d.tv/asset/20465726.isml/dash.mpd
+
+#EXTINF:-1 tvg-id="TV4Tennis(Swedish).se" tvg-name="" tvg-logo="https://tvmedia.image-service.eu-north-1-prod.vmnd.tv/api/v2/img/641b1803e4b0ca382ec4e12f-1726585527406?location=logoColourHorizontal" group-title="SportsPack",TV4 TENNIS (🇫🇮)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bd32ad608e8c35368dbb0acbfa94d8e0:957b32508fecaf1a7f842e9d89bc7537
+https://live.streaming.a2d.tv/asset/20465727.isml/dash.mpd
+
+#EXTINF:-1 tvg-id="TV4SportLive1(Swedish).se" tvg-name="" tvg-logo="https://tvmedia.image-service.eu-north-1-prod.vmnd.tv/api/v2/img/641b1902e4b0ca382ec4e13a-1726585400522?location=logoColourHorizontal" group-title="SportsPack",TV4 SPORT LIVE 1 (🇫🇮)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6c2908a6d85d35fd9a33db46d6b157b2:2327be90af966a52a164cc46e18b35f5
+https://live.streaming.a2d.tv/asset/20465729.isml/dash.mpd
+
+#EXTINF:-1 tvg-id="TV4SportLive2(Swedish).se" tvg-name="" tvg-logo="https://tvmedia.image-service.eu-north-1-prod.vmnd.tv/api/v2/img/641b18f5e4b0ca382ec4e138-1726585423487?location=logoColourHorizontal" group-title="SportsPack",TV4 SPORT LIVE 2 (🇫🇮)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=729e43e22f86327ea9cbfd859b6e50e9:bbd3b6b123a10cb4cdfd79751f56b0af
+https://live.streaming.a2d.tv/asset/20465730.isml/dash.mpd
+
+#EXTINF:-1 tvg-id="TV4SportLive3(Swedish).se" tvg-name="" tvg-logo="https://tvmedia.image-service.eu-north-1-prod.vmnd.tv/api/v2/img/641b18dee4b0ca382ec4e136-1726585444639?location=logoColourHorizontal" group-title="SportsPack",TV4 SPORT LIVE 3 (🇫🇮)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4e30426a0a5c36359b1606dd7bc90937:508fb8a6038bf24a216c27e3efe3d9cf
+https://live.streaming.a2d.tv/asset/20465731.isml/dash.mpd
+
+#EXTINF:-1 tvg-id="TV4SportLive4(Swedish).se" tvg-name="" tvg-logo="https://tvmedia.image-service.eu-north-1-prod.vmnd.tv/api/v2/img/641b18cce4b066fa896fe365-1726585461711?location=logoColourHorizontal" group-title="SportsPack",TV4 SPORT LIVE 4 (🇫🇮)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=08c544c527b93252a34932c4890903a1:86a3d7e41bd51161039cfc80d880c746
+https://live.streaming.a2d.tv/asset/20465732.isml/dash.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://iptvboss.xyz/logos/Germany/RTL%2BLIVE1.de.png" group-title="SportsPack",RTL HD (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b943f0201c4ccfe6e89eaebcc519dc88:fcf4cb1d4c8a1f2f4e46304bf76fbf08
+https://pnowlive-cf-prod.tvnow.de/event/event17/dash/event17hd.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://iptvboss.xyz/logos/Germany/RTL%2BLIVE1.de.png" group-title="SportsPack",RTL+ NITRO HD (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1839820a230b7f4088bedee2d2b7794:891bd04704418d9c4c46d61821348e61
+https://pnowlive-cf-prod.tvnow.de/event/event18/dash/event18hd.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://iptvboss.xyz/logos/Germany/RTL%2BLIVE1.de.png" group-title="SportsPack",RTL+ NFL NETWORK (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dffd5fa69608c8e99f97c6c118aeaf61:3a9622539f3a3da5234005f6b645a64c
+https://pnowlive-cf-prod.tvnow.de/event/event20/dash/event20hd.mpd
+
+#EXTINF:-1 tvg-id="SPORT1(German).de" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67214_dark_360w_270h.png" group-title="SportsPack",SPORT1 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"98f2ab49605f0469a4b97de40277fca0":"7ed06b6908edc372f2cb8ef2df2615d0"}
+https://ac-009.live.p7s1video.net/181aa0bf/t_009/sport1-de/cenc-default.mpd
+
+#EXTINF:-1 tvg-id="SPORT1(German).de" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67214_dark_360w_270h.png" group-title="SportsPack",SPORT1 HD (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"d55559807cd1936d57c34e4e4dfb05ba":"63288d1d7c6fa0998423d78b2e086f74"}
+#https://p7s1-live-009-prod.akamaized.net/3840da06/t_009/sport1-de-hd/cenc-default.mpd
+https://ac-009.live.p7s1video.net/3840da06/t_009/sport1-de-hd/cenc-default.mpd
+
+#EXTINF:-1 tvg-id="SPORT1plus(src01).de" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83768_dark_360w_270h.png" group-title="SportsPack",SPORT1+ HD (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"c1c11c3844b0dffdb9d9831900f1a1da":"a2c31e15346f339ca2b47bdd8591553f"}
+https://ac-009.live.p7s1video.net/c5c609cf/t_009/sport1plus-de-hd/cenc-default.mpd
+
+#EXTINF:-1 tvg-id="ORFSPORTplus(German).ch" tvg-name="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83942_dark_360w_270h.png" group-title="SportsPack",ORF SPORT+ (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"ba811cbf6c7afe35396453271437e013":"b55a91719f41754015edb61f5cd2468c"}
+https://ac-003.live.p7s1video.net/c8f927b4/t_003/orf-sport-plus-at/cenc-default.mpd
+
+
+##EXTINF:-1 tvg-id="ZiggoSport(src01).nl" tvg-name="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/t6lerk1573988295.png" group-title="SportsPack",ZIGGO SPORT
+##KODIPROP:inputstream.adaptive.manifest_type=mpd
+##KODIPROP:inputstream.adaptive.license_type=clearkey
+##KODIPROP:inputstream.adaptive.license_key=0be3d503dba13fc9a9c8ad4b89f599e6:578c2231c526c5e9eb415411e36871bf
+#https://da-d436236920010b8800010303000000000000000b.id.cdn.upcbroadband.com/wp/wp7-vxtoken-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000014_019661/_shared_6a89db18ec4202bae4d424e84c1f46a2/NL_000014_019661.mpd
+
+##EXTINF:-1 tvg-id="ZiggoSportDocu(src01).nl" tvg-name="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/6ug5ma1571692616.png" group-title="SportsPack",ZIGGO SPORT DOCU
+##KODIPROP:inputstream.adaptive.manifest_type=mpd
+##KODIPROP:inputstream.adaptive.license_type=clearkey
+##KODIPROP:inputstream.adaptive.license_key=16bf72dc22743d929c4318e193408373:eae51a1e3904124963074cbf432c7c8e
+#https://da-d436236620010b88000103030000000000000008.id.cdn.upcbroadband.com/wp/wp5-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000098_019255/_shared_cc010062b17300c4504b6ab5681b5417/NL_000098_019255.mpd
+
+##EXTINF:-1 tvg-id="ZiggoSport1Select(src01).nl" tvg-name="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/Ziggo_Sport_Select.png" group-title="SportsPack",ZIGGO SPORT SELECT
+##KODIPROP:inputstream.adaptive.manifest_type=mpd
+##KODIPROP:inputstream.adaptive.license_type=clearkey
+##KODIPROP:inputstream.adaptive.license_key=16bf72dc22743d929c4318e193408373:eae51a1e3904124963074cbf432c7c8e
+#https://da-d436236720010b88000103030000000000000009.id.cdn.upcbroadband.com/wp/wp1-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000094_019321/_shared_cc010062b17300c4504b6ab5681b5417/NL_000094_019321.mpd
+
+##EXTINF:-1 tvg-id="ZiggoSportTennis(src01).nl" tvg-name="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/tvlogo/1d18jq1628880280.png" group-title="SportsPack",ZIGGO SPORT TENNIS
+##KODIPROP:inputstream.adaptive.manifest_type=mpd
+##KODIPROP:inputstream.adaptive.license_type=clearkey
+##KODIPROP:inputstream.adaptive.license_key=16bf72dc22743d929c4318e193408373:eae51a1e3904124963074cbf432c7c8e
+#https://da-d436236320010b88000103030000000000000005.id.cdn.upcbroadband.com/wp/wp6-vxtoken-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000099_019256/_shared_cc010062b17300c4504b6ab5681b5417/NL_000099_019256.mpd
+
+##EXTINF:-1 tvg-id="ZiggoSportVoetbal(src01).nl" tvg-name="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/Ziggo_Sport_Voetbal.png" group-title="SportsPack",ZIGGO SPORT VOETBAL
+##KODIPROP:inputstream.adaptive.manifest_type=mpd
+##KODIPROP:inputstream.adaptive.license_type=clearkey
+##KODIPROP:inputstream.adaptive.license_key=16bf72dc22743d929c4318e193408373:eae51a1e3904124963074cbf432c7c8e
+#https://da-d436234620010b88000103020000000000000008.id.cdn.upcbroadband.com/wp/wp2-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000095_019371/_shared_cc010062b17300c4504b6ab5681b5417/NL_000095_019371.mpd
+
+#EXTINF:-1 tvg-id="ZiggoSport(src01).nl" tvg-name="" tvg-logo="https://lg.contv.top/sports/ziggosport.png" group-title="SportsPack",ZIGGO SPORT (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"ef34ae91b4f2415e8439b2ad105e7488":"243248d8de1ff8c7c587ee2057317523"}
+https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EqbcsJh_jU5C9BcZc959e_wae44b4867b3417aa76b5db2da20fe46c%7EKZzTWjB8qD1zdgbJjRPVLJX-tV0qiN9RBHC_iseGrsmTSRjj06oGDtGlpSCRGOwF3626cf085c08d024c7e4aafc18c32440%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601012829%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601012829%2C3103_SP1S%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717205309&from=11&hms_devid=1008&online=1717205309&mag_hms=1008,311,305&_=1717205322621
+
+#EXTINF:-1 tvg-id="ZiggoSport2(src01).nl" tvg-name="" tvg-logo="https://lg.contv.top/sports/ziggosport2.png" group-title="SportsPack",ZIGGO SPORT 2 (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"3cfa8625f650406ebf6a4d1ea737f572":"0534e747c70b364aa7210e1bf3191df0"}
+https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EOhA1DF4svOZppKxb-t-Ngw144cce44121c63284a33d5453493e5c8%7E1_Fmlu5PevHMYnEi9Z_HX2goKAd0VHSuxZMoIcAXcawYvG1meqGp2eQ2Ibhjvh7e59e7f6df3d57f23a32024ad67f0f19dc%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601013140%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601013140%2C3103_SP1V%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&_=1717205500296&RTS=1717205500&from=11&hms_devid=579&online=1717205500&mag_hms=579
+
+#EXTINF:-1 tvg-id="ZiggoSport3(src01).nl" tvg-name="" tvg-logo="https://lg.contv.top/sports/ziggosport3.png" group-title="SportsPack",ZIGGO SPORT 3 (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"4dbea4b5713a4aa1ae3a2544cd522fc7":"a8323ea99b2d6200a48e1bc27322d548"}
+https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw407556707_-381738111/PLTV/86/224/3221241511/3221241511.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EyVi0dMX4icO5Ka9e92EQfg8812e1c1044f7d357066472e3ee99ef4%7E2dRB9E-vDtoAbYl169LbcJpxUgWVJtbeU_PlhGfNUflphvljOb5VaEhxruETYG9qcccaf5c5b655bf7504ed7ec5a1dd798f%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601013401%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601013401%2C3103_SP1G%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&_=1717205641752&RTS=1717205641&from=16&hms_devid=538&online=1717205641&mag_hms=538
+
+#EXTINF:-1 tvg-id="ZiggoSport4(src01).nl" tvg-name="" tvg-logo="https://lg.contv.top/sports/ziggosport4.png" group-title="SportsPack",ZIGGO SPORT 4 (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"b5c04cfb6da84104ba5bbe51cd065b12":"d96561be4819d3ed4e5f4f54015baaca"}
+https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3221241652/3221241652.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7Eu0jaHTa0MTNW18tBSpXw1Ad47f31195be578ee163e34a9e557d481%7E-tEuN4yI47Z49lA_lxVw3r26rEF-eIM-4N-YRBTnBjXeDlL3yoAcCSTfh367bmnJfe93264045ad9787422349ffe59c4e2f%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601013557%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601013557%2C3103_SP1T%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&_=1717205757900&RTS=1717205758&from=11&hms_devid=538&online=1717205758&mag_hms=538
+
+#EXTINF:-1 tvg-id="ZiggoSport5(src01).nl" tvg-name="" tvg-logo="https://lg.contv.top/sports/ziggosport5.png" group-title="SportsPack",ZIGGO SPORT 5 (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"3fb40d85724942f994d86943f48021db":"a6da8742502c8a2153067f5f2a70fb02"}
+https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw865586829_-819821292/PLTV/86/224/3221241610/3221241610.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7ELNS2PBO5tyhp5z1Pe6ObBA6cd7a4ec35c4492167b9376e6dff2932%7EBZw2dESHw-I1PQCFh9gGxCMvrIIzgMdYAe900qj8l6aoXUX9ahyR6I9EUIu7nDR4f4887615c83ea7a8cee6dd33137c4ebe%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601014139%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601014139%2C3103_S1E1%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717206099&from=11&hms_devid=538&online=1717206099&mag_hms=538&_=1717206113039
+
+#EXTINF:-1 tvg-id="ZiggoSport6(src01).nl" tvg-name="" tvg-logo="https://lg.contv.top/sports/ziggosport6.png" group-title="SportsPack",ZIGGO SPORT 6 (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"1a0ffa532aa2498490826e2f6a37f7c9":"a8cec27bc7d47909c5b0d8f473b43e8d"}
+https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw1024019879_757686866/PLTV/86/224/3221241521/3221241521.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EURnD_afuosWHfY5OEqRXOwfa01c8ac56cf4511de39c2c4a3cab278%7EiVxKjbtf2gx_dYFqI-vt5C4Cu3COYDjZaw6C_kO2T2wm30fwo1ctD1gr_e2PrgTh48867c3177f3c34842031623cb2e06c9%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601014418%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601014418%2C3103_S1E2%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717206258&from=14&hms_devid=538&online=1717206258&mag_hms=538&_=1717206265600
+
+#EXTINF:-1 tvg-id="ESPN(src01).nl" tvg-name="" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/espn_norte-mediano.png" group-title="SportsPack",ESPN (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"7e4242db04e642a3bfeee4322f6c3309":"f888913716258cab8bda7217ed116958"}
+https://mag02.tvx.prd.tv.odido.nl/wh7f454c46tw263607846_-506634908/PLTV/42/224/3221237151/3221237151.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=42&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EDe_V7dONdiLmDTIXZJVjFQ4e9198ddf5c717dc8220f5260f5babf5%7EYWLKBE5mOzXaHhFihQw3yKABqIwJl8s_smDxn2cQbqJp09IZCiGMid2G4mq4oiin1bf05b2bf40c6872c86b8ec1ff3d1863%7EExtInfoaVv0w75bG4yPFxLChlA61w%3D%3Df323d84652d62ad20444009f681eb9ab%3A20240531144721%3AUTC%2C10001003332628%2C145.128.205.77%2C20240531144721%2C3103_FS1%2C10001003332628%2C-1%2C0%2C1%2C%2C%2C2%2C3103_BasispakketTV%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CMzk0OTAzNjMyMzMxMDMyNjczMDYzMDU2%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717166843&from=16&hms_devid=1014&online=1717166843&mag_hms=1014,296,298&_=1717166857141
+
+#EXTINF:-1 tvg-id="ESPN2(src01).nl" tvg-name="" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/espn_2_norte-mediano.png" group-title="SportsPack",ESPN 2 (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"877c908de48c4587a26bcf15e69209e9":"3fa8773739511fd77a34df324baca236"}
+https://mag02.tvx.prd.tv.odido.nl/wh7f454c46tw3480132229_1148556782/PLTV/42/224/3221236705/3221236705.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=42&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7ES_G5x_0rj0SxLLnkih2Gswcf5b95e61987253d0dcefc8dddf58abf%7ET8F9HZIZoFqKaUS-1u6soSS9Q-AB4_8iVhn_tBpWq2zo6uSpvV18emE3i5OFed7Kf5478a52478d7d9caf191d034489a482%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601011339%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601011339%2C3103_FS2%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_FOXSportsCompleet%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717204419&from=11&hms_devid=299&online=1717204419&mag_hms=299&_=1717204444514
+
+#EXTINF:-1 tvg-id="ESPN3(src01).nl" tvg-name="" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/espn_3_norte-mediano.png" group-title="SportsPack",ESPN 3 (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"81ef5e3512df4254bc6f84cad8afd28b":"be79c7f7e552369bb3dd6ed50dfc564f"}
+https://mag02.tvx.prd.tv.odido.nl/wh7f454c46tw3793419033_-522250660/PLTV/42/224/3221240625/3221240625.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=42&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7E1u4Nx72r4CScDnP9TleJ7Qe133597d301c5ac6606d70bcf6c80fb8%7EoYDAN7_me0l9gzBpq2jqroyCj90JVYN0pnjnV-z5mnx7FsBl0m2bU2rcLYgJPLV9d65a90b8fed763e73042f21ec56dd4a2%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601011852%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601011852%2C3103_FS3%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_FOXSportsCompleet%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&_=1717204732627&RTS=1717204732&from=16&hms_devid=296&online=1717204732&mag_hms=296
+
+#EXTINF:-1 tvg-id="ESPN4(src01).nl" tvg-name="" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/espn_4-mediano.png" group-title="SportsPack",ESPN 4 (🇳🇱)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"881667cba813441295cf85501dbb6e98":"d91f5dc38fd720ca7e67a05ad512c0ef"}
+https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw3938405433_768685155/PLTV/42/224/3221240640/3221240640.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=42&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7E_J2lSgjaV4brjHkpDbKgYAb925ce73ca161fcae24d173988874292%7EJ7k3cOwkqNuKBfK4KFrq-3IvfHM25Whz1GWtgGDrLwOR4I5z7hcrNY5Jh37NbThta2e5491a5d1cd1c427ea79d052b77441%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601012117%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601012117%2C3103_FS4%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_FOXSportsCompleet%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717204877&from=14&hms_devid=307&online=1717204877&mag_hms=307&_=1717204890918
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.tet.lv/cache/tvci/setanta_sports_1_hd_2611616.png" group-title="SportsPack",SETANTA SPORTS 1 (🇱🇻)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"5f3213807cfb5887b12faf17892530ba":"a0289eb8fb1508a81f1cf84acff2e44e","229c33cfd61455a8bb8a4aedf77d72b4":"5ddfb6e78ea93db5ffb855599667f2ad","57329e961d4a50ac88f4f2fb15ef5323":"bea93ea08795787dfe1b842848775c97"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/64_HTTP/__op/dash-widevine/__f/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.tet.lv/cache/tvci/setanta_sports_2_hd_266661955.png" group-title="SportsPack",SETANTA SPORTS 2 (🇱🇻)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"f057d5253c7d56a89ac078411b75bb82":"f1525320bf7dedaee0e2234808d5b78f","e4746139787559c59b48decb52feb66a":"1a5ce60d58f34d6de2e19b03e82ab3d3"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/55_HTTP/__op/dash-widevine/__f/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.tet.lv/cache/tvci/best4sport_tv_hd_2611426.png" group-title="SportsPack",BEST4SPORT TV (🇱🇻)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"c8d5bae519e75748b308159a417aa491":"e59d55a9cd600a71c426929c45ca0a4b","ecafae1261995201833e09a3c73910cd":"39f3623ff46e4257ae8eeb886ba7c36b","894dd6a9814d593db9967db81dba0692":"b2167ca5b0d08ae3ee6bae31490450ca"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/185_HTTP/__op/dash-widevine/__f/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.tet.lv/cache/tvci/best4sport_tv_2_hd_2611864.png" group-title="SportsPack",BEST4SPORT TV 2 (🇱🇻)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"219cc55327835fbfab687ad9eb5f3f19":"f02eae834c27e797a54cda4c7dbc7c2e","1eb3ffd4516d5e14bd13e37aaef0110d":"b22527ccb5120b067a1af99c7bd440fa","6cb59a4b88bd5b069d274ecbfc8f8277":"265956c16b0e23d8b7139a76a369df24"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/231_HTTP/__op/dash-widevine/__f/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.tet.lv/cache/tvci/go3_sport_open_hd_201882094.png" group-title="SportsPack",GO3 SPORT OPEN (🇱🇻)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"a55253dc8ada542f9908892a16165207":"b3271fd768a7650aa651d4a47e353c4f","f6062d0e8cf65e97a567e7395cb0d5d9":"0864c690f302f8ad17a3358d842b0acf","318d2477980651e0aed4ad175955eae9":"c238b596496635e74041b7b7730ad95b"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/229_HTTP/__op/dash-widevine/__f/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.tet.lv/cache/tvci/go3_sport_1_hd_2611212.png" group-title="SportsPack",GO3 SPORT 1 (🇱🇻)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"d61dd42538485231a29c656720dda04b":"d9657dd12e5fb59722aaf6adaf4c157a","9c8bc0cd6b255ad18b921387cf875f21":"64fb3b05953c7005d1e16e53bb54a0ae","a4ca788259405bd68cff11f6ea1ce8e4":"a236125571a004d4c073e16895c21f71"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/212_HTTP/__op/dash-widevine/__f/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.tet.lv/cache/tvci/go3_sport_2_hd_5922455.png" group-title="SportsPack",GO3 SPORT 2 (🇱🇻)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"76e9be4fab3e5816bce280f6ca3f73d5":"344103b77cc9bcb1b4b5461b3071639c","7026b3c03cb15e7c90bb5d98d2918eea":"66c6f85f004fb9936ed20733e5eae60c","f7839d964c5356be9acc7491cc721860":"f84a6ee22df39731fdaa7b9e5c676dd1"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/153_HTTP/__op/dash-widevine/__f/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.tet.lv/cache/tvci/go3_sport_3_hd_2611771.png" group-title="SportsPack",GO3 SPORT 3 (🇱🇻)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"757befd1199455e6ae24feff9b9b9477":"3a3f0db50fc4a4d87ae3788595219c03","34335d157d24530fa14b83c585a06257":"0a6ffd237e4ba6dc12c679aa3a36b675","aca0097e8ed3547785a29828f72fe713":"1f62d3b9bf2937cb180bf69475580544"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/166_HTTP/__op/dash-widevine/__f/manifest.mpd
+
+#EXTINF:-1 tvg-id="RAISPORT(Italian).it" tvg-name="" group-logo="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s54777_dark_360w_270h.png" group-title="SportsPack",RAI SPORT HD (OPC. 2)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"08459d3556934ddcaaa74ab0604d1be3":"c785c0d71006d9919e01ad1c005edc8d","8d99797432014e9eb5c060b01fd36df5":"9e615fbc5e0925b39de21423b3e95447"}
+https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
+
+----------Eurosport 360----------
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 1 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"877404d53133cf8907797f8c1d1bbc3e":"68a35d8a2e33e34ee0aa6807e64ace26"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/gnqwc9ji0p/out/v1/41ec3ffa7bc24070b4b431ce6646a3dd/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 2 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"d176d31eafb2f6dc332a32d1b1ba333a":"27c78ba7a7678bfc1afe2e7741dc03a5"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/2j3nc0zxcj/out/v1/66b4efe5d0444c9b81f57753f7d0d3ce/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 3 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"ad447027ca3251bc38ca2de3adb1cd30":"863eeb7a049c445b7a4c241023a55156"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/brua9hxt6n/out/v1/23002b4de552478081922590d493eeed/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 4 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"2e23ea415f6a691b212a157f218accbe":"baaef5c5281d741373c652b9121fb790"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/wqzoyel9x7/out/v1/86a2b301f0714cdebc04ef968946e245/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 5 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"f391b7fdb2de158cb1c3faca01fa1f85":"0c14eaae951f0f94f9d755e7f7449020"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/7wg9zqo1qv/out/v1/72c7c4a90b10467aae2f4ee21cca9328/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 6 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"8281d927d5c0f8cde2feab359b84004d":"10c3794077dcbc84172887158b2eef9e"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/xsypnnwrsl/out/v1/aa300e53ae1446d282feb896397765cc/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 7 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"49feb290aa328b2e319d1365e65c28e5":"9baca54f7cb35a8bcc7f96386f8ef97c"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/t4ipxfjpmi/out/v1/37bb79b602704904888a5ca46f36a833/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 8 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"9e17811141d916ea33defc7d664af852":"c2fbb018032a0b72ae3c5cde89cc72e6"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/abuscrlc6b/out/v1/1c2775d3d6614e50b8e05850c91c2279/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 9 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"156a288506a579e6a18eef3f838618c3":"3b52921ffdf9f5bba1b6162df5d2c7f9"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/otueb8vawn/out/v1/977653f90f184eb7abf5ca5f3ae2fc4a/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 10 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"bd81d7c004a3688828a059bccbafd477":"84330e8765763d2bc95599b6eee684fe"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/waeqekyjeo/out/v1/c8e9d7396f6d40a9b6a06be03bd50be3/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 11 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"57f4227c7267c98d1d53bd20f55993f4":"8eb148da662442b687c854eec6f8ec7c"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/okbulbeikh/out/v1/a741521ee07a4bf08a0335772186c70b/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 12 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"0c2aafa5c2e057bae0ca033511d5cc12":"d85e9307e231810714a138135f400ac0"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/5prac6i6lc/out/v1/267e541e6c7a45e19e02b24a9c7c2873/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 13 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"fc95f40f7bd42fa87c8dfc9768d92d47":"c3315d1a3e7f833b7a10f5d253eead00"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/v99fhw1cyj/out/v1/1360774a17dc450c953ebdd3a493f093/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 14 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"a09ae3b1c9b1f168fea74afd649a5493":"e71731992c457c916741783236cedf3d"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/pfngyajqdp/out/v1/37e29b1ff6bb4be4b554b041d0ae2c7a/cenc.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="" group-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" tvg-logo="https://thumb.canalplus.pro/http/unsafe/555x270/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FN/CHN43FN_636_20220110" group-title="Eurosport 360",LIVE 15 (🇩🇪)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"bd6589976c395b11bb88360562adfa83":"0dd837fc7b5da663684a5b066d6e17fd"}
+https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/u71hshpaa4/out/v1/3fd20d2cd46244e58bea94db10387ae1/cenc.mpd
