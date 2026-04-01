@@ -41,6 +41,10 @@ https://tv-mgmt.gtd.cl/bpk-tv/CHV/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"omisb3BTUd+mx3OY11VZ2A", "kid":"aPEVoOM+XuqA6n1DlAhRIg" },{ "kty":"oct", "k":"RvzUidoRiHnKg53LDMJgyg", "kid":"O0mp7/cJUPilYLh1X+uVAg" },{ "kty":"oct", "k":"zV8aUU7WOnbuyrEZWOPSww", "kid":"vZBRINS1WiSN/5S5by9xQw" } ], "type":"temporary" }
 https://cdn-live.mundogo.cl/megahd/megahd.mpd
 
+#EXTINF:-1 tvg-name="Mega HD (op2)" tvg-id="Mega_CL" tvg-logo="nnada/MEGA.png" group-title="TVDIGITALENCASA",Mega HD 🇨🇱 (op2)
+#EXTVLCOPT:http-referrer=https://vtrplay.com/
+http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+
 #EXTINF:-1 tvg-id="TVN" tvg-name="TVN" tvg-logo="https://i.ibb.co/3NmJZNb/tvn.png" group-title="TVDIGITALENCASA",TVN HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"d/nU1qFwH1NSCLz7WcAxHw", "kid":"qsQrXWpvW+2/1irF/vKJeA" },{ "kty":"oct", "k":"XiOoAFP7J086ASb6KHrrzw", "kid":"4hyVGmZxWcujnAmpRnUfcw" },{ "kty":"oct", "k":"ZJueey+t0p2zVbbbvAxS6w", "kid":"coh5b86yVlucQZ22OLXcGw" } ], "type":"temporary" }
@@ -2225,20 +2229,31 @@ https://ringeling.zappingtv.com/v1/meganoticias/auto.smil/playlist.m3u8?token=ey
 https://ringeling.zappingtv.com/v1/biobiotv/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
 #EXTINF:-1 tvg-id="TNT Sports Premium v2" tvg-name="TNT Sports Premium v2" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888867_1F5ED4CEA8EE9A89.png" group-title="TESTERS",TNT Sports Premium v2
+#EXTVLCOPT:http-referrer=https://ringeling.zappingtv.com/
 https://ringeling.zappingtv.com/v1/tntsportshd/sport.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
 #EXTINF:-1 tvg-id="History Channel" tvg-name="History Channel" tvg-logo="https://e7.pngegg.com/pngimages/804/149/png-clipart-history-history-channel-icons-logos-emojis-iconic-brands-thumbnail.png" group-title="TESTERS",History Channel
+#EXTVLCOPT:http-user-agent=Android
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5061291f547143b40b8abedfdff59174:fb0a1787499cbc22c2ecaf1b43dd4da7
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
 https://ringeling.zappingtv.com/v1/history/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
 #EXTINF:-1 tvg-id="Discovery Turbo" tvg-name="Discovery Turbo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Discovery_Turbo_logo_2016.svg/960px-Discovery_Turbo_logo_2016.svg.png" group-title="TESTERS",Discovery Turbo
+#EXTVLCOPT:http-user-agent=Android
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/&origin=null&Webtoken=1.0
 https://ringeling.zappingtv.com/v1/turbo/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
 #EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/98/MTV.png" group-title="TESTERS",MTV
+#EXTVLCOPT:http-referrer=https://zappingtv.com/
 https://ringeling.zappingtv.com/v1/mtv/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
 #EXTINF:-1 tvg-id="Warner Bross" tvg-name="Warner Bross" tvg-logo="https://e7.pngegg.com/pngimages/170/319/png-clipart-warner-bros-consumer-products-the-gold-diggers-youtube-film-warner-television-emblem-thumbnail.png" group-title="TESTERS",Warner Bross
+#EXTVLCOPT:http-referrer=https://zapping.com/
 https://ringeling.zappingtv.com/v1/warner/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
 #EXTINF:-1 tvg-id="PlayBoy" tvg-name="PlayBoy" tvg-logo="https://www.vhv.rs/dpng/d/539-5393583_playboy-bunny-logo-magazine-portable-network-graphics-playboy.png" group-title="TESTERS",PlayBoy
+#EXTVLCOPT:http-referrer=https://ringeling.zappingtv.com
 https://ringeling.zappingtv.com/v1/playboy/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
