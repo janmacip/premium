@@ -11,11 +11,23 @@ https://v1.tustreaming.cl/miradiotv/rewind-999999.m3u8
 #EXTINF:-1 tvg-id="24 Horas" tvg-name="24 Horas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logotipo_del_Canal_24_Horas.png" group-title="TVDIGITALENCASA",24 Horas
 https://ringeling.zappingtv.com/v1/24h/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
+#EXTINF:-1 tvg-id="CNN Chile" tvg-name="CNN Chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png" group-title="TVDIGITALENCASA",CNN Chile
+https://ringeling.zappingtv.com/v1/cnnchile/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
+#EXTINF:-1 tvg-id="Mega Noticias" tvg-name="Mega Noticias" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/10/Meganoticias-en-vivo-Online.png" group-title="TVDIGITALENCASA",Mega Noticias
+https://ringeling.zappingtv.com/v1/meganoticias/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
+#EXTINF:-1 tvg-id="BioBio TV" tvg-name="BioBio TV" tvg-logo="https://tvdaldia.cl/CDN/imgs/logos/biobiotv.png" group-title="TVDIGITALENCASA",BioBio TV
+https://ringeling.zappingtv.com/v1/biobiotv/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
 #EXTINF:-1 tvg-name="TNT Sports Premium HD" tvg-id="TNT Sports Premium_cl" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888867_1F5ED4CEA8EE9A89.png" group-title="TVDIGITALENCASA",TNT Sports Premium 🇨🇱
 #EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"e37512a1058943c4b3e9b947623d662a":"9e03dd73dd227505a7589766748def3b","66fdbc2636094ac280449dbe6c059163":"84d31c5fc86c964d3a083c5fe93cc33a"}
 https://tv-mgmt.gtd.cl/bpk-tv/CDF_HD/default/index.mpd
+
+#EXTINF:-1 tvg-id="TNT Sports Premium v2" tvg-name="TNT Sports Premium v2" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888867_1F5ED4CEA8EE9A89.png" group-title="TVDIGITALENCASA",TNT Sports Premium v2
+https://ringeling.zappingtv.com/v1/tntsportshd/sport.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
 #EXTINF:-1 tvg-id="Canal 13 HD" tvg-name="Canal 13 HD" tvg-logo="https://i.ibb.co/hsPWxXx/canal-13.png" group-title="TVDIGITALENCASA",CANAL 13 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -63,6 +75,20 @@ https://cdn-live.mundogo.cl/tvp/tvp.mpd
 #EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
 https://tv-mgmt.gtd.cl/bpk-tv/ZONALA/default/index.mpd
 
+#EXTINF:-1 tvg-id="History Channel" tvg-name="History Channel" tvg-logo="https://e7.pngegg.com/pngimages/804/149/png-clipart-history-history-channel-icons-logos-emojis-iconic-brands-thumbnail.png" group-title="TVDIGITALENCASA",History Channel
+https://ringeling.zappingtv.com/v1/history/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
+#EXTINF:-1 tvg-id="Discovery Turbo" tvg-name="Discovery Turbo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Discovery_Turbo_logo_2016.svg/960px-Discovery_Turbo_logo_2016.svg.png" group-title="TVDIGITALENCASA",Discovery Turbo
+https://ringeling.zappingtv.com/v1/turbo/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
+#EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/98/MTV.png" group-title="TVDIGITALENCASA",MTV
+https://ringeling.zappingtv.com/v1/mtv/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
+#EXTINF:-1 tvg-id="Warner Bross" tvg-name="Warner Bross" tvg-logo="https://e7.pngegg.com/pngimages/170/319/png-clipart-warner-bros-consumer-products-the-gold-diggers-youtube-film-warner-television-emblem-thumbnail.png" group-title="TVDIGITALENCASA",Warner Bross
+https://ringeling.zappingtv.com/v1/warner/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
+#EXTINF:-1 tvg-id="PlayBoy" tvg-name="PlayBoy" tvg-logo="https://www.vhv.rs/dpng/d/539-5393583_playboy-bunny-logo-magazine-portable-network-graphics-playboy.png" group-title="TVDIGITALENCASA",PlayBoy
+https://ringeling.zappingtv.com/v1/playboy/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
 
 ---------------Nacionales--------------
 
