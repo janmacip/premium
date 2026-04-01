@@ -2218,6 +2218,22 @@ https://ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/u71hshpaa4/o
 
 #EXTINF:-1 tvg-id="24 Horas" tvg-name="24 Horas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logotipo_del_Canal_24_Horas.png" group-title="TESTERS",24 Horas
 https://ringeling.zappingtv.com/v1/24h/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+https://movistar-pop.zappingtv.com/24h/auto.smil/token=vjzTLUR1LfJoNXJWHDKeQ4TcBeM~expire=1775116064~ip=179.8.20.226/chunklist_live1_sles.m3u8
+
+#EXTINF:-1 tvg-id="24 Horas2" tvg-name="24 Horas2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logotipo_del_Canal_24_Horas.png" group-title="TESTERS",24 Horas2
+https://movistar-pop.zappingtv.com/24h/auto.smil/token=vjzTLUR1LfJoNXJWHDKeQ4TcBeM~expire=1775116064~ip=179.8.20.226/chunklist_live1_sles.m3u8
+https://ringeling.zappingtv.com/v1/24h/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
+#EXTINF:-1 tvg-id="24 Horas3" tvg-name="24 Horas3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logotipo_del_Canal_24_Horas.png" group-title="TESTERS",24 Horas3
+https://movistar-pop.zappingtv.com/24h/auto.smil/token=vjzTLUR1LfJoNXJWHDKeQ4TcBeM~expire=1775116064~ip=179.8.20.226/chunklist_live1_sles.m3u8
+
+#EXTINF:-1 tvg-id="24 Horas4" tvg-name="24 Horas4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logotipo_del_Canal_24_Horas.png" group-title="TESTERS",24 Horas4
+#EXTVLCOPT:http-referrer=https://movistar-pop.zappingtv.com/24h/auto.smil/token=vjzTLUR1LfJoNXJWHDKeQ4TcBeM~expire=1775116064~ip=179.8.20.226/chunklist_live1_sles.m3u8
+https://ringeling.zappingtv.com/v1/24h/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
+#EXTINF:-1 tvg-id="24 Horas5" tvg-name="24 Horas5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logotipo_del_Canal_24_Horas.png" group-title="TESTERS",24 Horas5
+#EXTVLCOPT:http-referrer=https://ringeling.zappingtv.com/v1/24h/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+https://movistar-pop.zappingtv.com/24h/auto.smil/token=vjzTLUR1LfJoNXJWHDKeQ4TcBeM~expire=1775116064~ip=179.8.20.226/chunklist_live1_sles.m3u8
 
 #EXTINF:-1 tvg-id="CNN Chile" tvg-name="CNN Chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png" group-title="TESTERS",CNN Chile
 https://ringeling.zappingtv.com/v1/cnnchile/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
