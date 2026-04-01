@@ -8,6 +8,9 @@ Lista TVDIGITALENCASA
 #EXTINF:-1 tvg-id="Mi RADIOTV" tvg-name="Mi RADIOTV" tvg-logo="https://www.miradiols.cl/wp-content/uploads/2024/11/Asset-13.png" group-title="TVDIGITALENCASA",Mi Radio TV
 https://v1.tustreaming.cl/miradiotv/rewind-999999.m3u8
 
+#EXTINF:-1 tvg-id="24 Horas" tvg-name="24 Horas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logotipo_del_Canal_24_Horas.png" group-title="TVDIGITALENCASA",24 Horas
+https://ringeling.zappingtv.com/v1/24h/auto.smil/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjk5NDQzODMxMSwidXVpZCI6IlZMQzRHTDNSbTB6RkxaYmhSUWtjaCJ9.kQxSfHO3sFH5TvT99nzr2Ojivm3E9T-c00bFwPdqrw8
+
 #EXTINF:-1 tvg-name="TNT Sports Premium HD" tvg-id="TNT Sports Premium_cl" tvg-logo="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/19/88/19888867_1F5ED4CEA8EE9A89.png" group-title="TVDIGITALENCASA",TNT Sports Premium 🇨🇱
 #EXTVLCOPT:http-referrer=https://gtdtv.gtd.cl/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
